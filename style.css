@@ -251,3 +251,24 @@ h2:nth-of-type(1) ~ label {
 #results:empty {
   display: none;
 }
+.animal-switch {
+  display: flex;
+  gap: 12px;
+  max-width: 650px;
+  margin: 20px auto 30px;
+}
+
+.animal-switch button {
+  flex: 1;
+  padding: 18px 10px;
+  border-radius: 18px;
+  font-size: 18px;
+  background: white;
+  border: 2px solid #e8dfd8;
+}
+
+.animal-switch .animal-selected {
+  background: #9b6038;
+  color: white;
+  border-color: #9b6038;
+}
