@@ -1,22 +1,22 @@
 fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
+const searchButton = document.getElementById("searchButton");
+const results = document.getElementById("results");
 
-    const buttons = document.querySelectorAll("body > button");
-    const searchButton = document.getElementById("searchButton");
-    const results = document.getElementById("results");
+const dogButton = document.getElementById("dogButton");
+const catButton = document.getElementById("catButton");
 
-    let selectedAnimal = "dog";
+let selectedAnimal = "dog";
 
-    // 犬ボタン
-    buttons[0].addEventListener("click", () => {
-      selectedAnimal = "dog";
-    });
+dogButton.addEventListener("click", () => {
+  selectedAnimal = "dog";
+});
 
-    // 猫ボタン
-    buttons[1].addEventListener("click", () => {
-      selectedAnimal = "cat";
-    });
+catButton.addEventListener("click", () => {
+  selectedAnimal = "cat";
+});
+  
 
     // 検索ボタン
     searchButton.addEventListener("click", () => {
