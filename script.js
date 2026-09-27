@@ -1,3 +1,4 @@
+alert("script.js動いてる");
 fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
