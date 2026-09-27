@@ -40,3 +40,12 @@ fetch("foods.json")
     });
 
   });
+const buttons = document.querySelectorAll("body > button");
+
+buttons[0].addEventListener("click", function() {
+  alert("犬モードです！");
+});
+
+buttons[1].addEventListener("click", function() {
+  alert("猫モードです！");
+});
