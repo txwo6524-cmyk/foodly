@@ -1,6 +1,14 @@
 fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
+    const currentFood = document.getElementById("currentFood");
+
+foods.forEach(food => {
+  const option = document.createElement("option");
+  option.value = food.name;
+  option.textContent = food.name;
+  currentFood.appendChild(option);
+});
 const searchButton = document.getElementById("searchButton");
 const results = document.getElementById("results");
 
