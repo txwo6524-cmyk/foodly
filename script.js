@@ -2,7 +2,45 @@ fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
     const currentFood = document.getElementById("currentFood");
+currentFood.addEventListener("change", () => {
+  const selectedFood = foods.find(
+    food => food.name === currentFood.value
+  );
 
+  if (!selectedFood) return;
+
+  const similarFoods = foods.filter(food => {
+    if (food.name === selectedFood.name) return false;
+
+    const commonIngredients = food.ingredients.filter(ingredient =>
+      selectedFood.ingredients.includes(ingredient)
+    );
+
+    return commonIngredients.length > 0;
+  });
+
+  results.innerHTML = "";
+
+  similarFoods.forEach(food => {
+    const card = document.createElement("div");
+    card.className = "food-card";
+
+    card.innerHTML = `
+      <h3>${food.name}</h3>
+      <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
+      <p>共通する原材料：${
+        food.ingredients
+          .filter(ingredient => selectedFood.ingredients.includes(ingredient))
+          .join("・")
+      }</p>
+      <p>原材料：${food.ingredients.join("・")}</p>
+      <p>メーカー：${food.maker || "未登録"}</p>
+      <p><a href="${food.url}" target="_blank">公式サイトを見る</a></p>
+    `;
+
+    results.appendChild(card);
+  });
+});
 foods.forEach(food => {
   const option = document.createElement("option");
   option.value = food.name;
