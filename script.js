@@ -209,7 +209,11 @@ favoriteButton.addEventListener("click", () => {
               : ""
           }
         `;
+const favoriteButton = card.querySelector(".favorite-button");
 
+favoriteButton.addEventListener("click", () => {
+  toggleFavorite(food.name, favoriteButton);
+});
         searchResults.appendChild(card);
       });
     });
