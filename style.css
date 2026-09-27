@@ -174,3 +174,76 @@ input[type="checkbox"] {
     width: auto;
   }
 }
+/* アプリ風レイアウト */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 28px 20px 60px;
+}
+
+/* 原材料エリアをカード化 */
+h2:nth-of-type(1) {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 35px;
+  margin-bottom: 0;
+}
+
+/* 原材料のまとまり */
+h2:nth-of-type(1) ~ label {
+  background: white;
+}
+
+/* 検索ボタンを大きく */
+#ingredientSearchButton {
+  display: block;
+  width: 100%;
+  max-width: 650px;
+  margin: 25px auto 40px;
+  padding: 16px;
+  font-size: 16px;
+}
+
+/* 今食べているフード */
+#currentFood {
+  width: 100%;
+  max-width: 650px;
+  box-sizing: border-box;
+  padding: 15px 18px;
+  margin-bottom: 20px;
+}
+
+/* 今食べているフード周辺 */
+#results {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  margin-top: 15px;
+}
+
+/* 検索結果も少しアプリっぽく */
+#searchResults {
+  background: white;
+  border-radius: 24px;
+  padding: 24px;
+  max-width: 650px;
+  box-sizing: border-box;
+}
+
+/* スマホではカードの余白を調整 */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 16px 50px;
+  }
+
+  #searchResults,
+  #results {
+    padding: 18px;
+    border-radius: 20px;
+  }
+
+  #ingredientSearchButton {
+    width: 100%;
+  }
+}
