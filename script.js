@@ -3,6 +3,7 @@ fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
     const currentFood = document.getElementById("currentFood");
+    console.log("currentFood:", currentFood);
     const results = document.getElementById("results");
 currentFood.addEventListener("change", () => {
   const selectedFood = foods.find(
