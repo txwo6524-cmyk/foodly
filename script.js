@@ -110,10 +110,10 @@ fetch("foods.json")
 
 
     // 検索ボタン
-    const searchButton = document.getElementById("searchButton");
+    const ingredientSearchButton = document.getElementById("ingredientSearchButton");
     const searchResults = document.getElementById("searchResults");
 
-    searchButton.addEventListener("click", () => {
+  ingredientSearchButton.addEventListener("click", () => {
 
       const checked = document.querySelectorAll(
         'input[type="checkbox"]:checked'
