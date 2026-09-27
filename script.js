@@ -82,3 +82,12 @@ catButton.addEventListener("click", () => {
       card.textContent.includes("猫用") ? "block" : "none";
   });
 });
+let selectedAnimal = "";
+
+dogButton.addEventListener("click", () => {
+  selectedAnimal = "dog";
+});
+
+catButton.addEventListener("click", () => {
+  selectedAnimal = "cat";
+});
