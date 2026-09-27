@@ -46,12 +46,12 @@ results.appendChild(title);
     results.appendChild(card);
   });
 });
-foods.forEach(food => {
-  const option = document.createElement("option");
-  option.value = food.name;
-  option.textContent = food.name;
-  currentFood.appendChild(option);
-});
+currentFood.innerHTML = `
+  <option value="">フードを選択してください</option>
+  <option value="サンプルフードA">サンプルフードA</option>
+  <option value="サンプルフードB">サンプルフードB</option>
+  <option value="サンプルフードC">サンプルフードC</option>
+`;
 const searchButton = document.getElementById("searchButton");
 
 const dogButton = document.getElementById("dogButton");
