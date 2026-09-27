@@ -70,55 +70,56 @@ dogButton.classList.remove("animal-selected");
 });
   
 
-    // 検索ボタン
-    searchButton.addEventListener("click", () => {
+  // 検索ボタン
+searchButton.addEventListener("click", () => {
 
-      const checked = document.querySelectorAll(
-        'input[type="checkbox"]:checked'
-      );
+  const checked = document.querySelectorAll(
+    'input[type="checkbox"]:checked'
+  );
 
-      const avoidedIngredients = Array.from(checked).map(
-        checkbox => checkbox.value
-      );
+  const avoidedIngredients = Array.from(checked).map(
+    checkbox => checkbox.value
+  );
 
-      const filteredFoods = foods.filter(food => {
+  const searchResults = document.getElementById("searchResults");
 
-        // 犬・猫を判定
-        if (food.animal !== selectedAnimal) {
-          return false;
-        }
+  searchResults.innerHTML = "";
 
-        // 避けたい原材料を除外
-        return !food.ingredients.some(ingredient =>
-          avoidedIngredients.includes(ingredient)
-        );
+  const title = document.createElement("h2");
+  title.textContent = "検索結果";
+  searchResults.appendChild(title);
 
-      });
+  const filteredFoods = foods.filter(food => {
 
-      results.innerHTML = "";
+    // 犬・猫を判定
+    if (food.animal !== selectedAnimal) {
+      return false;
+    }
 
-      filteredFoods.forEach(food => {
-
-        const card = document.createElement("div");
-        card.className = "food-card";
-
-        card.innerHTML = `
-          <h3>${food.name}</h3>
-          <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
-          <p>原材料：${food.ingredients.join("・")}</p>
-  
-          <p>メーカー：${food.maker || ""}</p>
-          ${
-            food.url
-              ? `<p><a href="${food.url}" target="_blank">商品ページを見る</a></p>`
-              : ""
-          }
-        `;
-
-        results.appendChild(card);
-
-      });
-
-    });
-
+    // 避けたい原材料を除外
+    return !food.ingredients.some(ingredient =>
+      avoidedIngredients.includes(ingredient)
+    );
   });
+
+  filteredFoods.forEach(food => {
+
+    const card = document.createElement("div");
+    card.className = "food-card";
+
+    card.innerHTML = `
+      <h3>${food.name}</h3>
+      <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
+      <p>原材料：${food.ingredients.join("・")}</p>
+      <p>メーカー：${food.maker || ""}</p>
+
+      ${
+        food.url
+          ? `<p><a href="${food.url}" target="_blank">公式サイトを見る</a></p>`
+          : ""
+      }
+    `;
+
+    searchResults.appendChild(card);
+  });
+});
