@@ -58,6 +58,7 @@ dogButton.classList.remove("animal-selected");
           <h3>${food.name}</h3>
           <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
           <p>原材料：${food.ingredients.join("・")}</p>
+  
           <p>メーカー：${food.maker || ""}</p>
           ${
             food.url
