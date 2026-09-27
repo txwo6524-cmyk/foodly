@@ -3,15 +3,21 @@
     "name": "サンプルフードA",
     "animal": "dog",
     "ingredients": ["鶏肉", "米", "小麦"]
-  },
+  ,
+  "maker": "サンプルメーカー",
+"url": "https://example.com"},
   {
     "name": "サンプルフードB",
     "animal": "dog",
     "ingredients": ["魚", "米"]
-  },
+  ,
+  "maker": "サンプルメーカー",
+"url": "https://example.com"},
   {
     "name": "サンプルフードC",
     "animal": "cat",
     "ingredients": ["牛肉", "米"]
-  }
+  ,
+  "maker": "サンプルメーカー",
+"url": "https://example.com"}
 ]
