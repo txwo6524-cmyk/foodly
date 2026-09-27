@@ -33,3 +33,7 @@ button {
 .food-card p {
   margin: 8px 0;
 }
+.animal-selected {
+  background: #333;
+  color: white;
+}
