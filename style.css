@@ -100,23 +100,22 @@ input[type="checkbox"] {
 .food-card {
   background: white;
   border: 1px solid #e8dfd8;
-  border-radius: 20px;
+  border-radius: 18px;
   padding: 20px;
-  margin-top: 15px;
-  max-width: 650px;
-  box-shadow: 0 4px 14px rgba(80, 50, 30, 0.06);
+  margin-top: 16px;
+  max-width: 600px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
 }
 
 .food-card h3 {
   margin-top: 0;
-  margin-bottom: 12px;
-  color: #3b2a20;
+  margin-bottom: 14px;
   font-size: 20px;
 }
 
 .food-card p {
-  margin: 8px 0;
-  color: #554b45;
+  margin: 10px 0;
+  line-height: 1.6;
 }
 
 /* 公式サイトリンク */
