@@ -75,6 +75,9 @@ fetch("foods.json")
           <p>
             メーカー：${food.maker || "未登録"}
           </p>
+      <p>
+  🟤 粒の大きさ：${food.size || "不明"}
+</p>    
 <p>
   💰 参考価格：${
     food.price ? `¥${food.price.toLocaleString()}（${food.weight || ""}）` : "未登録"
@@ -164,6 +167,9 @@ fetch("foods.json")
           <p>
             メーカー：${food.maker || ""}
           </p>
+     <p>
+  🟤 粒の大きさ：${food.size || "不明"}
+</p>     
 <p>
   💰 参考価格：${
     food.price ? `¥${food.price.toLocaleString()}（${food.weight || ""}）` : "未登録"
