@@ -272,3 +272,15 @@ h2:nth-of-type(1) ~ label {
   color: white;
   border-color: #9b6038;
 }
+.ingredient-category {
+  background: white;
+  padding: 18px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ingredient-category h3 {
+  margin-top: 0;
+  margin-bottom: 14px;
+}
