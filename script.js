@@ -26,6 +26,9 @@ fetch("foods.json")
 
       const filteredFoods = foods.filter(food => {
         const animalMatch = food.animal === selectedAnimal;
+        if (!animalMatch) {
+  return false;
+}
         return !food.ingredients.some(ingredient =>
           avoidedIngredients.includes(ingredient)
         );
