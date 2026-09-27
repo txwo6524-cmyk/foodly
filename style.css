@@ -283,3 +283,19 @@ h2:nth-of-type(1) ~ label {
   margin-top: 0;
   margin-bottom: 14px;
 }
+#currentFood {
+  width: 100%;
+  max-width: 550px;
+  padding: 14px 16px;
+  border: 1px solid #e8dfd8;
+  border-radius: 16px;
+  background: white;
+  font-size: 16px;
+  color: #4a4039;
+  box-sizing: border-box;
+}
+
+#results {
+  max-width: 600px;
+  margin-top: 20px;
+}
