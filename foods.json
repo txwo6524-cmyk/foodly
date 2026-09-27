@@ -1,0 +1,17 @@
+[
+  {
+    "name": "サンプルフードA",
+    "animal": "dog",
+    "ingredients": ["鶏肉", "米", "小麦"]
+  },
+  {
+    "name": "サンプルフードB",
+    "animal": "dog",
+    "ingredients": ["魚", "米"]
+  },
+  {
+    "name": "サンプルフードC",
+    "animal": "cat",
+    "ingredients": ["牛肉", "米"]
+  }
+]
