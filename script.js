@@ -20,7 +20,9 @@ currentFood.addEventListener("change", () => {
   });
 
   results.innerHTML = "";
-
+const title = document.createElement("h2");
+title.textContent = "似ているフード";
+results.appendChild(title);
   similarFoods.forEach(food => {
     const card = document.createElement("div");
     card.className = "food-card";
