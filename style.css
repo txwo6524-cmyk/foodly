@@ -1,39 +1,176 @@
 body {
-  font-family: sans-serif;
-  background: #f5f5f5;
-  margin: 0;
-  padding: 30px;
-}
-
-h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Noto Sans JP", sans-serif;
+  background: #faf7f3;
   color: #333;
+  margin: 0;
+  padding: 24px;
+  line-height: 1.6;
 }
 
-button {
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+/* 全体 */
+body > * {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* タイトル */
+h1 {
+  color: #3b2a20;
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+h1::first-letter {
+  color: #9b6038;
+}
+
+body > p {
+  color: #6f625a;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* 犬・猫ボタン */
+button {
+  padding: 12px 28px;
+  margin: 4px;
+  border: none;
+  border-radius: 999px;
+  background: #eee9e4;
+  color: #6d625b;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.animal-selected {
+  background: #9b6038;
+  color: white;
+}
+
+/* 見出し */
+h2 {
+  color: #3b2a20;
+  margin-top: 36px;
+  margin-bottom: 16px;
+}
+
+/* 原材料チェック */
+label {
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #e8dfd8;
+  border-radius: 999px;
+  padding: 7px 13px;
+  margin: 4px;
+  color: #51463f;
+}
+
+/* チェックボックス */
+input[type="checkbox"] {
+  accent-color: #9b6038;
+  margin-right: 6px;
+}
+
+/* 検索ボタン */
+#ingredientSearchButton,
+#searchButton {
+  background: #9b6038;
+  color: white;
+  padding: 13px 28px;
+  border-radius: 999px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 18px;
+}
+
+/* 検索結果 */
+#searchResults {
+  margin-top: 24px;
+}
+
+/* フードカード */
 .food-card {
   background: white;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 16px;
+  border: 1px solid #e8dfd8;
+  border-radius: 20px;
+  padding: 20px;
   margin-top: 15px;
-  max-width: 500px;
+  max-width: 650px;
+  box-shadow: 0 4px 14px rgba(80, 50, 30, 0.06);
 }
 
 .food-card h3 {
   margin-top: 0;
-  color: #333;
+  margin-bottom: 12px;
+  color: #3b2a20;
+  font-size: 20px;
 }
 
 .food-card p {
   margin: 8px 0;
+  color: #554b45;
 }
-.animal-selected {
-  background: #333;
-  color: white;
+
+/* 公式サイトリンク */
+.food-card a {
+  color: #8a4f2d;
+  font-weight: bold;
+}
+
+/* 今食べているフード */
+#currentFood {
+  padding: 12px 16px;
+  border-radius: 999px;
+  border: 1px solid #ddd2c9;
+  background: white;
+  font-size: 15px;
+  color: #4b4039;
+  max-width: 100%;
+}
+
+/* 選択中のフード周辺 */
+#results {
+  margin-top: 20px;
+}
+
+/* スマホ */
+@media (max-width: 600px) {
+  body {
+    padding: 20px 16px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  label {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .food-card {
+    padding: 18px;
+    border-radius: 18px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+
+  #ingredientSearchButton,
+  #searchButton {
+    width: auto;
+  }
 }
