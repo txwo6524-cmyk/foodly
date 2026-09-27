@@ -2,6 +2,7 @@ fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
     const currentFood = document.getElementById("currentFood");
+    const results = document.getElementById("results");
 currentFood.addEventListener("change", () => {
   const selectedFood = foods.find(
     food => food.name === currentFood.value
@@ -50,7 +51,6 @@ foods.forEach(food => {
   currentFood.appendChild(option);
 });
 const searchButton = document.getElementById("searchButton");
-const results = document.getElementById("results");
 
 const dogButton = document.getElementById("dogButton");
 const catButton = document.getElementById("catButton");
