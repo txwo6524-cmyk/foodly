@@ -11,10 +11,14 @@ let selectedAnimal = "dog";
 
 dogButton.addEventListener("click", () => {
   selectedAnimal = "dog";
+  dogButton.classList.add("animal-selected");
+catButton.classList.remove("animal-selected");
 });
 
 catButton.addEventListener("click", () => {
   selectedAnimal = "cat";
+  catButton.classList.add("animal-selected");
+dogButton.classList.remove("animal-selected");
 });
   
 
