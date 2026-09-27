@@ -4,7 +4,25 @@ fetch("foods.json")
 
     const currentFood = document.getElementById("currentFood");
     const results = document.getElementById("results");
+const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
 
+function isFavorite(foodName) {
+  return favorites.includes(foodName);
+}
+
+function toggleFavorite(foodName, button) {
+  const index = favorites.indexOf(foodName);
+
+  if (index === -1) {
+    favorites.push(foodName);
+    button.textContent = "⭐";
+  } else {
+    favorites.splice(index, 1);
+    button.textContent = "☆";
+  }
+
+  localStorage.setItem("favorites", JSON.stringify(favorites));
+}
     // フード選択欄にフード名を入れる
     foods.forEach(food => {
       const option = document.createElement("option");
@@ -51,6 +69,9 @@ fetch("foods.json")
         card.className = "food-card";
 
         card.innerHTML = `
+        <button class="favorite-button" data-food="${food.name}">
+  ${isFavorite(food.name) ? "⭐" : "☆"}
+</button>
           <h3>${food.name}</h3>
 
           <p>
@@ -89,7 +110,11 @@ fetch("foods.json")
               : ""
           }
         `;
+const favoriteButton = card.querySelector(".favorite-button");
 
+favoriteButton.addEventListener("click", () => {
+  toggleFavorite(food.name, favoriteButton);
+});
         results.appendChild(card);
       });
     });
