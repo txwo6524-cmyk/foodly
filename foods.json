@@ -5,6 +5,8 @@
     "ingredients": ["鶏肉", "米", "小麦"]
   ,
   "maker": "サンプルメーカー",
+    "price": 3980,
+"weight": "2kg",
 "url": "https://example.com"},
   {
     "name": "サンプルフードB",
@@ -12,6 +14,8 @@
     "ingredients": ["魚", "米"]
   ,
   "maker": "サンプルメーカー",
+    "price": 3980,
+"weight": "2kg",
 "url": "https://example.com"},
   {
     "name": "サンプルフードC",
@@ -19,5 +23,7 @@
     "ingredients": ["牛肉", "米"]
   ,
   "maker": "サンプルメーカー",
+    "price": 3980,
+"weight": "2kg",
 "url": "https://example.com"}
 ]
