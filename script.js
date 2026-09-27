@@ -91,25 +91,3 @@ dogButton.addEventListener("click", () => {
 catButton.addEventListener("click", () => {
   selectedAnimal = "cat";
 });
-const originalSearchButton = document.getElementById("searchButton");
-
-originalSearchButton.addEventListener("click", () => {
-  const cards = document.querySelectorAll(".food-card");
-
-  cards.forEach(card => {
-    const isCorrectAnimal =
-      !selectedAnimal ||
-      card.textContent.includes(selectedAnimal === "dog" ? "犬用" : "猫用");
-
-    const checkedIngredients = Array.from(
-      document.querySelectorAll('input[type="checkbox"]:checked')
-    ).map(checkbox => checkbox.value);
-
-    const hasAvoidedIngredient = checkedIngredients.some(
-      ingredient => card.textContent.includes(ingredient)
-    );
-
-    card.style.display =
-      isCorrectAnimal && !hasAvoidedIngredient ? "block" : "none";
-  });
-});
