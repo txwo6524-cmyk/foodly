@@ -336,3 +336,6 @@ button:active {
   background: none;
   opacity: 0.8;
 }
+.favorite-button {
+  color: #9b6038;
+}
