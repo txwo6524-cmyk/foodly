@@ -75,7 +75,11 @@ fetch("foods.json")
           <p>
             メーカー：${food.maker || "未登録"}
           </p>
-
+<p>
+  💰 参考価格：${
+    food.price ? `¥${food.price.toLocaleString()}（${food.weight || ""}）` : "未登録"
+  }
+</p>
           ${
             food.url
               ? `<p><a href="${food.url}" target="_blank">公式サイトを見る</a></p>`
