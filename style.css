@@ -299,3 +299,11 @@ h2:nth-of-type(1) ~ label {
   max-width: 600px;
   margin-top: 20px;
 }
+button {
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+button:active {
+  transform: scale(0.97);
+  opacity: 0.85;
+}
