@@ -24,9 +24,17 @@ fetch("foods.json")
       results.innerHTML = "";
 
       filteredFoods.forEach(food => {
-        const item = document.createElement("p");
-        item.textContent = food.name;
-        results.appendChild(item);
+
+        const card = document.createElement("div");
+        card.className = "food-card";
+
+        card.innerHTML = `
+          <h3>${food.name}</h3>
+          <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
+          <p>原材料：${food.ingredients.join("・")}</p>
+        `;
+
+        results.appendChild(card);
       });
 
     });
