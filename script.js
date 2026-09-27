@@ -70,7 +70,7 @@ function toggleFavorite(foodName, button) {
 
         card.innerHTML = `
         <button class="favorite-button" data-food="${food.name}">
-  ${isFavorite(food.name) ? "⭐" : "☆"}
+  ${isFavorite(food.name) ? "★" : "☆"}
 </button>
           <h3>${food.name}</h3>
 
@@ -180,7 +180,7 @@ favoriteButton.addEventListener("click", () => {
 
         card.innerHTML = `
         <button class="favorite-button" data-food="${food.name}">
-  ${isFavorite(food.name) ? "⭐" : "☆"}
+  ${isFavorite(food.name) ? "★" : "☆"}
 </button>
           <h3>${food.name}</h3>
 
