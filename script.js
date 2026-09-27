@@ -25,14 +25,13 @@ fetch("foods.json")
       );
 
       const filteredFoods = foods.filter(food => {
-        const animalMatch = food.animal === selectedAnimal;
-        if (!animalMatch) {
+        if (selectedAnimal && food.animal !== selectedAnimal) {
   return false;
 }
-        return !food.ingredients.some(ingredient =>
-          avoidedIngredients.includes(ingredient)
-        );
-      });
+
+return !food.ingredients.some(ingredient =>
+  avoidedIngredients.includes(ingredient)
+);
 
       results.innerHTML = "";
 
