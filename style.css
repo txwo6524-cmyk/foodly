@@ -16,3 +16,20 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
+.food-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin-top: 15px;
+  max-width: 500px;
+}
+
+.food-card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.food-card p {
+  margin: 8px 0;
+}
