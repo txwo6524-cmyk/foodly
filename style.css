@@ -247,3 +247,7 @@ h2:nth-of-type(1) ~ label {
     width: 100%;
   }
 }
+#searchResults:empty,
+#results:empty {
+  display: none;
+}
