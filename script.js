@@ -62,3 +62,23 @@ buttons[0].addEventListener("click", function() {
 buttons[1].addEventListener("click", function() {
   alert("猫モードです！");
 });
+const dogButton = document.querySelector("button:nth-of-type(1)");
+const catButton = document.querySelector("button:nth-of-type(2)");
+
+dogButton.addEventListener("click", () => {
+  const cards = document.querySelectorAll(".food-card");
+
+  cards.forEach(card => {
+    card.style.display =
+      card.textContent.includes("犬用") ? "block" : "none";
+  });
+});
+
+catButton.addEventListener("click", () => {
+  const cards = document.querySelectorAll(".food-card");
+
+  cards.forEach(card => {
+    card.style.display =
+      card.textContent.includes("猫用") ? "block" : "none";
+  });
+});
