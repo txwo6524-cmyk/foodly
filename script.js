@@ -179,6 +179,9 @@ favoriteButton.addEventListener("click", () => {
         card.className = "food-card";
 
         card.innerHTML = `
+        <button class="favorite-button" data-food="${food.name}">
+  ${isFavorite(food.name) ? "⭐" : "☆"}
+</button>
           <h3>${food.name}</h3>
 
           <p>
