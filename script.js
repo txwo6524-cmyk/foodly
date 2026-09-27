@@ -1,3 +1,12 @@
+let selectedAnimal = "dog";
+
+document.getElementById("dogButton").addEventListener("click", () => {
+  selectedAnimal = "dog";
+});
+
+document.getElementById("catButton").addEventListener("click", () => {
+  selectedAnimal = "cat";
+});
 fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
