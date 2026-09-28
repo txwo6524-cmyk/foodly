@@ -1,3 +1,4 @@
+const searchSection = document.getElementById("searchSection");
 fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
@@ -8,8 +9,11 @@ const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
 const favoritesButton = document.getElementById("favoritesButton");
 const favoritesResults = document.getElementById("favoritesResults");
 
-favoritesButton.addEventListener("click", () => {
-  favoritesResults.innerHTML = "";
+
+    favoritesButton.addEventListener("click", () => {
+  searchSection.style.display = "none";
+      favoritesResults.style.display = "block";
+      favoritesResults.innerHTML = "";
 
   const title = document.createElement("h2");
   title.textContent = "お気に入り";
