@@ -10,9 +10,18 @@ const favoritesButton = document.getElementById("favoritesButton");
 const favoritesResults = document.getElementById("favoritesResults");
 
 
-    favoritesButton.addEventListener("click", () => {
+    
+      favoritesButton.addEventListener("click", () => {
+
+  if (searchSection.style.display === "none") {
+    searchSection.style.display = "block";
+    favoritesResults.style.display = "none";
+    return;
+  }
+
   searchSection.style.display = "none";
-      favoritesResults.style.display = "block";
+  favoritesResults.style.display = "block";
+  
       favoritesResults.innerHTML = "";
 
   const title = document.createElement("h2");
