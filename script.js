@@ -5,7 +5,52 @@ fetch("foods.json")
     const currentFood = document.getElementById("currentFood");
     const results = document.getElementById("results");
 const favorites = JSON.parse(localStorage.getItem("favorites") || "[]");
+const favoritesButton = document.getElementById("favoritesButton");
+const favoritesResults = document.getElementById("favoritesResults");
 
+favoritesButton.addEventListener("click", () => {
+  favoritesResults.innerHTML = "";
+
+  const title = document.createElement("h2");
+  title.textContent = "お気に入り";
+  favoritesResults.appendChild(title);
+
+  const favoriteFoods = foods.filter(food =>
+    favorites.includes(food.name)
+  );
+
+  if (favoriteFoods.length === 0) {
+    favoritesResults.innerHTML += "<p>お気に入りはまだありません。</p>";
+    return;
+  }
+
+  favoriteFoods.forEach(food => {
+    const card = document.createElement("div");
+    card.className = "food-card";
+
+    card.innerHTML = `
+      <h3>${food.name}</h3>
+      <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
+      <p>原材料：${food.ingredients.join("・")}</p>
+      <p>メーカー：${food.maker || "未登録"}</p>
+      <p>🟤 粒の大きさ：${food.size || "不明"}</p>
+      <p>
+        💰 参考価格：${
+          food.price
+            ? `¥${food.price.toLocaleString()}（${food.weight || ""}）`
+            : "未登録"
+        }
+      </p>
+      ${
+        food.url
+          ? `<p><a href="${food.url}" target="_blank">公式サイトを見る</a></p>`
+          : ""
+      }
+    `;
+
+    favoritesResults.appendChild(card);
+  });
+});
 function isFavorite(foodName) {
   return favorites.includes(foodName);
 }
