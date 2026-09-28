@@ -42,6 +42,9 @@ const favoritesResults = document.getElementById("favoritesResults");
     card.className = "food-card";
 
     card.innerHTML = `
+    <button class="favorite-button" data-food="${food.name}">
+  ★
+</button>
       <h3>${food.name}</h3>
       <p>🐾 ${food.animal === "dog" ? "犬用" : "猫用"}</p>
       <p>原材料：${food.ingredients.join("・")}</p>
@@ -60,7 +63,12 @@ const favoritesResults = document.getElementById("favoritesResults");
           : ""
       }
     `;
+const favoriteButton = card.querySelector(".favorite-button");
 
+favoriteButton.addEventListener("click", () => {
+  toggleFavorite(food.name, favoriteButton);
+  card.remove();
+});
     favoritesResults.appendChild(card);
   });
 });
