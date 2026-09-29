@@ -4,7 +4,7 @@ fetch("foods.json")
   .then(response => response.json())
   .then(foods => {
 
-    const currentFood = document.getElementById("currentFood");
+    
     const results = document.getElementById("results");
 
     const favorites = JSON.parse(
