@@ -1,2966 +1,2035 @@
 [
   {
-    "name": "ニュートロ シュプレモ プレミアム ブレンド ラム ",
+    "name": "ニュートロ シュプレモ プレミアム ブレンド ラム",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ラム（肉）・ラムミール・ポークミール・ヒヨコマメ・乾燥ポテト・エンドウマメ・鶏脂・エンドウタンパク・ポテトでん粉・トマト・レンズマメ・タンパク加水分解物・亜麻仁・乾燥チコリー繊維・ひまわり油・乾燥グリーンピース・乾燥パプリカ・乾燥黄桃・乾燥パイナップル・乾燥リンゴ・ココナッツオイル・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 1980,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "豚肉",
-      "ひよこ豆",
-      "じゃがいも",
-      "エンドウ豆",
-      "鶏肉",
-      "トマト",
-      "レンズ豆"
-    ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "500g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_lamb"
+    "price": "500g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_lamb",
+    "url": ""
   },
   {
-    "name": "ニュートロ シュプレモ プレミアム ブレンド ビーフ ",
+    "name": "ニュートロ シュプレモ プレミアム ブレンド ビーフ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ビーフ（肉）・ポークミール・乾燥ポテト・ラムミール・エンドウマメ・ヒヨコマメ・鶏脂・ポテトでん粉・エンドウタンパク・ホウレン草・タンパク加水分解物・亜麻仁・乾燥チコリー繊維・乾燥グリーンピース・ひまわり油・乾燥パプリカ・乾燥黄桃・乾燥パイナップル・乾燥リンゴ・ココナッツオイル・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 1980,
     "maker": "ニュートロ",
-    "ingredients": [
-      "牛肉",
-      "豚肉",
-      "じゃがいも",
-      "羊肉",
-      "エンドウ豆",
-      "ひよこ豆",
-      "ほうれん草"
-    ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "500g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_beef"
+    "price": "500g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_beef",
+    "url": ""
   },
   {
-    "name": "ニュートロ シュプレモ プレミアム ブレンド チキン ",
+    "name": "ニュートロ シュプレモ プレミアム ブレンド チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・エンドウマメ・ラムミール・乾燥ポテト・レンズマメ・鶏脂・ポテトでん粉・ニンジン・ヒヨコマメ・タンパク加水分解物・乾燥チコリー繊維・エンドウタンパク・亜麻仁・乾燥グリーンピース・ひまわり油・乾燥パプリカ・乾燥黄桃・乾燥パイナップル・乾燥リンゴ・ココナッツオイル・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 1980,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "エンドウ豆",
-      "羊肉",
-      "じゃがいも",
-      "レンズ豆",
-      "にんじん",
-      "ひよこ豆"
-    ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "500g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_chicken"
+    "price": "500g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_premium_chicken",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ  牧場のレシピ ビーフ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ビーフ（肉）・ポークミール・乾燥ポテト・ラムミール・エンドウマメ・ヒヨコマメ・鶏脂・ポテトでん粉・エンドウタンパク・ホウレン草・タンパク加水分解物・亜麻仁・乾燥チコリー繊維・ひまわり油・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2521,
     "maker": "ニュートロ",
-    "ingredients": [
-      "牛肉",
-      "豚肉",
-      "じゃがいも",
-      "羊肉",
-      "エンドウ豆",
-      "ひよこ豆",
-      "鶏肉",
-      "ほうれん草"
-    ],
-    "size": "普通",
-    "price": 2521,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_beef"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_beef",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ  草原のレシピ チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・エンドウマメ・ラムミール・乾燥ポテト・レンズマメ・鶏脂・ポテトでん粉・ニンジン・ヒヨコマメ・タンパク加水分解物・乾燥チコリー繊維・エンドウタンパク・亜麻仁・ひまわり油・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2521,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "エンドウ豆",
-      "羊肉",
-      "じゃがいも",
-      "レンズ豆",
-      "にんじん",
-      "ひよこ豆"
-    ],
-    "size": "普通",
-    "price": 2521,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_chicken"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_chicken",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ  地中海のレシピ ラム",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ラム（肉）・ラムミール・ポークミール・ヒヨコマメ・乾燥ポテト・エンドウマメ・鶏脂・エンドウタンパク・ポテトでん粉・トマト・レンズマメ・タンパク加水分解物・亜麻仁・乾燥チコリー繊維・ひまわり油・バジル・タイム・パセリ・オレガノ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2521,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "豚肉",
-      "ひよこ豆",
-      "じゃがいも",
-      "エンドウ豆",
-      "鶏肉",
-      "トマト",
-      "レンズ豆"
-    ],
-    "size": "普通",
-    "price": 2521,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_lamb"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_grainfree_lamb",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 超小型犬4kg以下",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・オーツ麦・モロコシ・玄米・鶏脂・ラムミール・サーモンミール・粗挽き米・ビートパルプ・大麦・タンパク加水分解物・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
     "age": "成犬",
     "sizeCategory": "超小型",
+    "size": 2145,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "かぼちゃ",
-      "ほうれん草",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2145,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 小型犬用 成犬用",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・モロコシ・オーツ麦・玄米・鶏脂・ラムミール・サーモンミール・粗挽き米・ビートパルプ・大麦・タンパク加水分解物・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2548,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "ほうれん草",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2548,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_small"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_small",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 子犬用 小粒",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・大麦・オーツ麦・玄米・鶏脂・ポテトタンパク・ビートパルプ・タンパク加水分解物・ラムミール・サーモンミール・モロコシ・亜麻仁・エンドウタンパク・フィッシュオイル・ココナッツ・チアシード・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
     "age": "子犬",
     "sizeCategory": "超小型・小型",
+    "size": 2686,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "大麦",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "かぼちゃ",
-      "ほうれん草",
-      "にんじん",
-      "エンドウ豆"
-    ],
-    "size": "小粒",
-    "price": 2686,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_puppy"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_puppy",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 成犬用",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "ニュートロ",
     "ingredients": [
-      "鶏肉",
-      "大麦",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "ほうれん草",
-      "にんじん"
+      "普通"
     ],
-    "size": "普通",
-    "price": 4785,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult"
+    "actualIngredients": "チキン（肉）・チキンミール・モロコシ・大麦・オーツ麦・玄米・鶏脂・タンパク加水分解物・ラムミール・サーモンミール・ビートパルプ・粗挽き米・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 4785,
+    "maker": "ニュートロ",
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 超小型犬～小型犬用 エイジングケア",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・大麦・オーツ麦・玄米・粗挽き米・ラムミール・サーモンミール・モロコシ・ビートパルプ・タンパク加水分解物・鶏脂・亜麻仁・フィッシュオイル・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
     "age": "シニア",
     "sizeCategory": "超小型・小型",
+    "size": 2686,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "大麦",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "ほうれん草",
-      "かぼちゃ",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2686,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_senior_toy"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_senior_toy",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ エイジングケア シニア犬用",
     "animal": "dog",
-    "age": "シニア",
-    "sizeCategory": "全犬種",
-    "maker": "ニュートロ",
     "ingredients": [
-      "鶏肉",
-      "トウモロコシ",
-      "オーツ麦",
-      "米",
-      "大麦",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "かぼちゃ",
-      "ほうれん草",
-      "にんじん"
+      "普通"
     ],
-    "size": "普通",
-    "price": 5023,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_senior"
+    "actualIngredients": "チキン（肉）・チキンミール・モロコシ・オーツ麦・玄米・大麦・粗挽き米・ラムミール・サーモンミール・ビートパルプ・タンパク加水分解物・鶏脂・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
+    "age": "シニア",
+    "sizeCategory": "全サイズ",
+    "size": 5023,
+    "maker": "ニュートロ",
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_senior",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 超小型犬～小型犬用 体重管理用",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・大麦・玄米・オーツ麦・ラムミール・粗挽き米・サーモンミール・モロコシ・ビートパルプ・タンパク加水分解物・鶏脂・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2686,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "大麦",
-      "オーツ麦",
-      "米",
-      "羊肉",
-      "魚",
-      "卵",
-      "トマト",
-      "ほうれん草",
-      "かぼちゃ",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2686,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_toy_lite"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_toy_lite",
+    "url": ""
   },
   {
     "name": "ニュートロ シュプレモ 体重管理用 成犬用",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "ニュートロ",
     "ingredients": [
-      "鶏肉",
-      "大麦",
-      "米",
-      "トウモロコシ",
-      "オーツ麦",
-      "羊肉",
-      "エンドウ豆",
-      "魚",
-      "卵",
-      "トマト",
-      "かぼちゃ",
-      "ほうれん草",
-      "にんじん"
+      "普通"
     ],
-    "size": "普通",
-    "price": 5023,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/supremo_d_adult_lite"
+    "actualIngredients": "チキン（肉）・チキンミール・大麦・玄米・モロコシ・オーツ麦・粗挽き米・ラムミール・エンドウタンパク・タンパク加水分解物・サーモンミール・ビートパルプ・鶏脂・亜麻仁・チアシード・ココナッツ・乾燥卵・トマト・ケール・パンプキン・ホウレン草・ブルーベリー・リンゴ・ニンジン",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 5023,
+    "maker": "ニュートロ",
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/supremo_d_adult_lite",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 超小型犬～小型犬用 成犬用 鹿肉＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鹿肉ミール・玄米・オートミール・粗挽き米・ヒヨコマメ・米糠・エンドウタンパク・エンドウマメ・鶏脂・タンパク加水分解物・亜麻仁・ひまわり油・大豆油",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鹿肉",
-      "米",
-      "オーツ麦",
-      "ひよこ豆",
-      "エンドウ豆",
-      "鶏肉",
-      "大豆"
-    ],
-    "size": "小粒",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_toy_venison_br"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_toy_venison_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 超小型犬4kg以下用 成犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・オートミール・玄米・エンドウマメ・ラムミール・鶏脂・大麦・粗挽き米・タンパク加水分解物・米糠・ビートパルプ・亜麻仁・サツマイモ・ブルーベリー・リンゴ・ニンジン",
     "age": "成犬",
     "sizeCategory": "超小型",
+    "size": 1944,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "オーツ麦",
-      "米",
-      "エンドウ豆",
-      "羊肉",
-      "大麦",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 1944,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_toy_chiken_br"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_toy_chiken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス超小型犬 〜小型犬 成犬用 ラム＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "ラム（肉）・ラムミール・粗挽き米・米糠・エンドウマメ・ヒヨコマメ・玄米・オートミール・鶏脂・エンドウタンパク・タンパク加水分解物・大豆油・ひまわり油",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "米",
-      "エンドウ豆",
-      "ひよこ豆",
-      "オーツ麦",
-      "鶏肉",
-      "大豆"
-    ],
-    "size": "小粒",
-    "price": 2318,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_toy_lamb_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_toy_lamb_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 小型犬用 成犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・大麦・オートミール・エンドウマメ・粗挽き米・鶏脂・タンパク加水分解物・ビートパルプ・亜麻仁・チアシード・ココナッツ・トマト・乾燥卵・パンプキン・ケール・ホウレン草",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2319,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "エンドウ豆",
-      "トマト",
-      "卵",
-      "かぼちゃ",
-      "ほうれん草"
-    ],
-    "size": "小粒",
-    "price": 2319,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_small_chiken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_small_chiken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 中型犬～大型犬用 成犬用 チキン&玄米",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・大麦・オートミール・粗挽き米・エンドウマメ・鶏脂・ビートパルプ・タンパク加水分解物・亜麻仁・チアシード・ココナッツ・トマト・乾燥卵・パンプキン・ケール・ホウレン草",
     "age": "成犬",
     "sizeCategory": "中型・大型",
+    "size": 5793,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "エンドウ豆",
-      "トマト",
-      "卵",
-      "かぼちゃ",
-      "ほうれん草"
-    ],
-    "size": "普通",
-    "price": 5793,
-    "weight": "3kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_medium_cheken_br"
+    "price": "3kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_medium_cheken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 中型犬～大型犬用 成犬用 ラム＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ラム（肉）・ラムミール・粗挽き米・米糠・オートミール・エンドウマメ・ヒヨコマメ・玄米・鶏脂・エンドウタンパク・タンパク加水分解物・大豆油・ひまわり油",
     "age": "成犬",
     "sizeCategory": "中型・大型",
+    "size": 4271,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "米",
-      "オーツ麦",
-      "エンドウ豆",
-      "ひよこ豆",
-      "鶏肉",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 4271,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_medium_lamb_br"
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_medium_lamb_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 減量用 超小型犬～小型犬用 成犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・玄米・レンズマメ・米糠・ラムミール・セルロース・エンドウタンパク・チキンミール・エンドウマメ・大麦・ビートパルプ・サツマイモ・アルファルファミール・タンパク加水分解物・鶏脂・ブルーベリー・リンゴ・ニンジン",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2566,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "レンズ豆",
-      "羊肉",
-      "エンドウ豆",
-      "大麦",
-      "さつまいも",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2566,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_toy_lite_chicken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_toy_lite_chicken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 減量用 全犬種用 成犬用 ラム＆玄米",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "ニュートロ",
     "ingredients": [
-      "羊肉",
-      "米",
-      "エンドウ豆",
-      "ひよこ豆",
-      "オーツ麦",
-      "鶏肉",
-      "大豆"
+      "普通"
     ],
-    "size": "普通",
-    "price": 2566,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_lite_lamb_br"
+    "actualIngredients": "ラム（肉）・米糠・玄米・ラムミール・エンドウマメ・セルロース・ヒヨコマメ・エンドウタンパク・オートミール・アルファルファミール・ビートパルプ・タンパク加水分解物・鶏脂・大豆油・ひまわり油",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 2566,
+    "maker": "ニュートロ",
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_lite_lamb_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 中型犬～大型犬用 シニア犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・大麦・オートミール・粗挽き米・モロコシ・エンドウマメ・ビートパルプ・タンパク加水分解物・鶏脂・フィッシュオイル・チアシード・ココナッツ・トマト・乾燥卵・パンプキン・ケール・ホウレン草",
     "age": "シニア",
     "sizeCategory": "中型・大型",
+    "size": 4491,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "トウモロコシ",
-      "エンドウ豆",
-      "魚",
-      "トマト",
-      "卵",
-      "かぼちゃ",
-      "ほうれん草"
-    ],
-    "size": "普通",
-    "price": 4491,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_medium_cheken_br"
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_medium_cheken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 中型犬～大型犬用 エイジングケア ラム＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ラム（肉）・玄米・ラムミール・粗挽き米・米糠・オートミール・エンドウタンパク・タンパク加水分解物・鶏脂・ビートパルプ・大豆油・ひまわり油・フィッシュオイル",
     "age": "シニア",
     "sizeCategory": "中型・大型",
+    "size": 4491,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "米",
-      "オーツ麦",
-      "エンドウ豆",
-      "鶏肉",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 4491,
-    "weight": "2kg ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_medium_lamb_br"
+    "price": "2kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_medium_lamb_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 超小型犬～小型犬用 エイジングケア ラム＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "ラム（肉）・ラムミール・玄米・粗挽き米・米糠・オートミール・エンドウタンパク・ビートパルプ・鶏脂・タンパク加水分解物・大豆油・ひまわり油・フィッシュオイル",
     "age": "シニア",
     "sizeCategory": "超小型・小型",
+    "size": 2428,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "米",
-      "オーツ麦",
-      "エンドウ豆",
-      "鶏肉",
-      "大豆",
-      "魚"
-    ],
-    "size": "小粒",
-    "price": 2428,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_toy_lamb_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_toy_lamb_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 超小型犬4kg以下用 エイジングケア チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,米,エンドウ豆,大麦,オーツ麦,羊肉,さつまいも,魚,にんじん",
     "age": "シニア",
     "sizeCategory": "超小型",
+    "size": 2043,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "エンドウ豆",
-      "大麦",
-      "オーツ麦",
-      "羊肉",
-      "さつまいも",
-      "魚",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2043,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_toy_cheken_br"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_toy_cheken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 小型犬用 シニア犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・大麦・オートミール・エンドウマメ・粗挽き米・タンパク加水分解物・ビートパルプ・鶏脂・フィッシュオイル・チアシード・ココナッツ・トマト・乾燥卵・パンプキン・ケール・ホウレン草",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": 2428,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "エンドウ豆",
-      "魚",
-      "トマト",
-      "卵",
-      "かぼちゃ",
-      "ほうれん草"
-    ],
-    "size": "小粒",
-    "price": 2428,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_small_cheken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_small_cheken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 避妊・去勢犬用 超小型犬～小型犬用 エイジングケア チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・粗挽き米・米糠・エンドウタンパク・ビートパルプ・オートミール・タンパク加水分解物・ひまわり油・大豆油・鶏脂・フィッシュオイル",
     "age": "シニア",
     "sizeCategory": "超小型・小型",
+    "size": 2566,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "オーツ麦",
-      "エンドウ豆",
-      "大豆",
-      "魚"
-    ],
-    "size": "小粒",
-    "price": 2566,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_senior_toy_neuterd_chicken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_senior_toy_neuterd_chicken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 避妊・去勢犬用 超小型犬～小型犬用 成犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・玄米・粗挽き米・オートミール・米糠・エンドウタンパク・ビートパルプ・鶏脂・タンパク加水分解物・セルロース・大豆油・ひまわり油",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2566,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "エンドウ豆",
-      "大豆"
-    ],
-    "size": "小粒",
-    "price": 2566,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_adult_toy_neuterd_chicken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_toy_neuterd_chicken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 子犬用 妊娠中・授乳中の母犬にも 超小型犬～中型犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,米,エンドウ豆,羊肉,さつまいも,魚,ブルーベリー,りんご,にんじん",
     "age": "子犬or母犬",
     "sizeCategory": "超小型・小型・中型",
+    "size": 2438,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "エンドウ豆",
-      "羊肉",
-      "さつまいも",
-      "魚",
-      "ブルーベリー",
-      "りんご",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": 2438,
-    "weight": "1kg ",
-    "url": "https://store.nutro.jp/products/nc_d_puppy_chicken_br"
+    "price": "1kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_puppy_chicken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 子犬用 妊娠中・授乳中の母犬にも 大型犬用 チキン＆玄米",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,米,大麦,オーツ麦,エンドウ豆,魚,トマト,卵,かぼちゃ,ほうれん草",
     "age": "子犬",
     "sizeCategory": "大型",
+    "size": 6105,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "エンドウ豆",
-      "魚",
-      "トマト",
-      "卵",
-      "かぼちゃ",
-      "ほうれん草"
-    ],
-    "size": "普通",
-    "price": 6105,
-    "weight": "3kg ",
-    "url": "https://store.nutro.jp/products/nc_d_puppy_large_cheken_br"
+    "price": "3kg ",
+    "weight": "https://store.nutro.jp/products/nc_d_puppy_large_cheken_br",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 成犬用 ターキー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ターキー（肉）・チキンミール・エンドウマメ・タピオカ・鶏脂・乾燥ポテト・乾燥チキン・エンドウタンパク・ダック（肉）・ビートパルプ・タンパク加水分解物・アルファルファミール・亜麻仁",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "ターキー",
-      "鶏肉",
-      "エンドウ豆",
-      "タピオカ",
-      "じゃがいも",
-      "アヒル肉"
-    ],
-    "size": "普通",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_adlut_toy_turkey"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_adlut_toy_turkey",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 子犬用 ターキー",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "ターキー（肉）・チキンミール・エンドウマメ・エンドウタンパク・乾燥ポテト・タピオカ・鶏脂・ポテトタンパク・フィッシュミール・ビートパルプ・ダック（肉）・タンパク加水分解物・アルファルファミール・フィッシュオイル",
     "age": "子犬",
     "sizeCategory": "超小型・小型",
+    "size": 2428,
     "maker": "ニュートロ",
-    "ingredients": [
-      "ターキー",
-      "鶏肉",
-      "エンドウ豆",
-      "じゃがいも",
-      "タピオカ",
-      "アヒル肉",
-      "魚"
-    ],
-    "size": "不明",
-    "price": 2428,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_puppy_toy_turkey"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_puppy_toy_turkey",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "チキン（肉）・チキンミール・エンドウマメ・乾燥ポテト・鶏脂・タピオカ・ビートパルプ・乾燥チキン・エンドウタンパク・タンパク加水分解物・亜麻仁・アルファルファミール",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "鶏肉",
-      "エンドウ豆",
-      "じゃがいも",
-      "タピオカ"
-    ],
-    "size": "不明",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_adult_toy_chicken"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_adult_toy_chicken",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 成犬用 ビーフ",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "ビーフ（肉）・エンドウマメ・チキンミール・ポークミール・鶏脂・乾燥ポテト・タピオカ・フィッシュミール・タンパク加水分解物・アルファルファミール・ビートパルプ・亜麻仁・エンドウタンパク",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "牛肉",
-      "エンドウ豆",
-      "鶏肉",
-      "豚肉",
-      "じゃがいも",
-      "タピオカ",
-      "魚"
-    ],
-    "size": "不明",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_adlut_toy_beef"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_adlut_toy_beef",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 成犬用 ラム",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "ラム（肉）・チキンミール・エンドウマメ・乾燥ポテト・鶏脂・タピオカ・フィッシュミール・ビートパルプ・アルファルファミール・タンパク加水分解物",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "羊肉",
-      "鶏肉",
-      "エンドウ豆",
-      "じゃがいも",
-      "タピオカ",
-      "魚"
-    ],
-    "size": "不明",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_adult_toy_lamb"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_adult_toy_lamb",
+    "url": ""
   },
   {
     "name": "ニュートロ ワイルド レシピ 超小型犬～小型犬用 成犬用 サーモン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "サーモン（すり身）・チキンミール・ヒヨコマメ・フィッシュミール・鶏脂・エンドウマメ・乾燥ポテト・エンドウタンパク・アルファルファミール・ひまわり油・タンパク加水分解物・ビートパルプ",
     "age": "成犬",
     "sizeCategory": "超小型・小型",
+    "size": 2318,
     "maker": "ニュートロ",
-    "ingredients": [
-      "魚",
-      "鶏肉",
-      "ひよこ豆",
-      "エンドウ豆",
-      "じゃがいも"
-    ],
-    "size": "不明",
-    "price": 2318,
-    "weight": "800g ",
-    "url": "https://store.nutro.jp/products/wr_d_adult_toy_salmon"
+    "price": "800g ",
+    "weight": "https://store.nutro.jp/products/wr_d_adult_toy_salmon",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット アダルト 1～6歳 小粒 成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ・トウモロコシ粉・鶏肉・小麦・大豆・動物性油脂・米・植物性油脂・魚油・ビートパルプ・ポークエキス",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "小大麦",
-      "鶏肉",
-      "米",
-      "大豆",
-      "豚肉",
-      "魚"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg ",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-mini-chicken-dry"
+    "price": "1.4kg ",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット アダルト 1～6歳 小粒 成犬用 ラム＆ライス",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ・小麦・鶏肉・ラム肉・米・大豆・動物性油脂・魚油・ビートパルプ・ポークエキス",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "羊肉",
-      "米",
-      "トウモロコシ",
-      "小大麦",
-      "大豆",
-      "鶏肉",
-      "豚肉",
-      "魚"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "3.3kg ",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-lamb-rice-small-bites-dry"
+    "price": "3.3kg ",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-lamb-rice-small-bites-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット アダルト1～6歳 中粒 成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "トウモロコシ・小麦・鶏肉・米・大豆・動物性油脂・ビートパルプ・植物性油脂・魚油・ポークエキス",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "小大麦",
-      "鶏肉",
-      "米",
-      "大豆",
-      "豚肉",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "3.3kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-medium-chicken-dry"
+    "price": "3.3kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-medium-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット アダルトライト 1～6歳 小粒 肥満傾向の成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ・小麦・鶏肉・大豆・米・セルロース・ビートパルプ・動物性油脂・植物性油脂・魚油",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "鶏肉",
-      "エンドウ豆",
-      "小大麦",
-      "米"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-light-mini-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-light-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 10歳以上 小粒 高齢犬用 シニアプラス チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ・鶏肉・小麦・米・大豆・動物性油脂・ビートパルプ・植物性油脂・魚油",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "大豆",
-      "卵",
-      "米",
-      "小大麦",
-      "鶏肉",
-      "豚肉"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-senior-small-bites-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-senior-small-bites-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 13歳以上 小粒 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ・鶏肉・小麦・米・大豆・動物性油脂・ビートパルプ・植物性油脂・魚油",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "大豆",
-      "卵",
-      "米",
-      "小大麦",
-      "鶏肉",
-      "豚肉"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-healthy-mobility-mini-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-healthy-mobility-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 7歳以上 中粒 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "トウモロコシ・鶏肉・小麦・米・大豆・動物性油脂・ビートパルプ・植物性油脂・魚油",
     "age": "シニア",
     "sizeCategory": "中型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "小大麦",
-      "鶏肉",
-      "米",
-      "大豆",
-      "豚肉",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "3.3kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-medium-chicken-dry"
+    "price": "3.3kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-medium-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 7歳以上 小粒 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ,大豆,卵,米,小大麦,鶏肉,豚肉",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "大豆",
-      "卵",
-      "米",
-      "小大麦",
-      "鶏肉",
-      "豚肉"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-mini-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニアライト 7歳以上 肥満傾向の高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ,大豆,卵,米,小大麦,鶏肉,豚肉",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "大豆",
-      "卵",
-      "米",
-      "小大麦",
-      "鶏肉",
-      "豚肉"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-light-small-bites-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-light-small-bites-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット パピー 12ヶ月まで 小粒 子犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ,小大麦,鶏肉,米,大豆,豚肉",
     "age": "子犬or母犬",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "小大麦",
-      "鶏肉",
-      "米",
-      "大豆",
-      "豚肉"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-puppy-mini-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-puppy-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット 大型犬 パピー18ヶ月まで チキン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "鶏肉,米,トウモロコシ,卵,魚,オーツ麦",
     "age": "子犬",
     "sizeCategory": "大型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "トウモロコシ",
-      "卵",
-      "魚",
-      "オーツ麦"
-    ],
-    "size": "不明",
-    "price": null,
-    "weight": "12kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-puppy-large-breed-chicken-dry"
+    "price": "12kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-puppy-large-breed-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット 大型犬用 アダルト 1～5歳 成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "トウモロコシ,小大麦,鶏肉,ターキー,米,大豆,オーツ麦",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "トウモロコシ",
-      "小大麦",
-      "鶏肉",
-      "ターキー",
-      "米",
-      "大豆",
-      "オーツ麦"
-    ],
-    "size": "不明",
-    "price": null,
-    "weight": "12kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-large-breed-chicken-dry"
+    "price": "12kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-large-breed-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット 大型犬用 アダルトライト 1～5歳 肥満傾向の成犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "エンドウ豆,鶏肉,ターキー,トウモロコシ,小大麦,米,オーツ麦",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "エンドウ豆",
-      "鶏肉",
-      "ターキー",
-      "トウモロコシ",
-      "小大麦",
-      "米",
-      "オーツ麦"
-    ],
-    "size": "不明",
-    "price": null,
-    "weight": "12kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-adult-light-large-breed-chicken-dry"
+    "price": "12kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-light-large-breed-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット 大型犬用 シニア 6歳以上 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "不明"
+    ],
+    "actualIngredients": "小大麦,トウモロコシ,鶏肉,ターキー,エンドウ豆,オーツ麦,米",
     "age": "シニア",
     "sizeCategory": "大型",
+    "size": "未登録",
     "maker": "ヒルズ",
+    "price": "12kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-6-large-breed-chicken-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット アダルト 1～6歳 小粒 成犬用 チキン",
+    "animal": "dog",
     "ingredients": [
-      "小大麦",
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "エンドウ豆",
-      "オーツ麦",
-      "米"
+      "小粒"
     ],
-    "size": "不明",
-    "price": null,
-    "weight": "12kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-6-large-breed-chicken-dry"
+    "actualIngredients": "鶏肉,ターキー,小大麦,トウモロコシ,エンドウ豆,トマト,米,にんじん",
+    "age": "成犬",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-1-weight-mini-chicken-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット アダルト 1～6歳 小粒 成犬用 チキン",
+    "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,ターキー,トウモロコシ,小大麦,米,オーツ麦,トマト,柑橘類,ほうれん草",
+    "age": "成犬",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-small-mini-chicken-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット アダルト 1～6歳 小粒 成犬用 ラム＆ライス",
+    "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "トウモロコシ,米,小大麦,羊肉,オーツ麦,大麦,大豆,トマト,柑橘類,ほうれん草",
+    "age": "成犬",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-small-miniature-lamb-rice-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット アダルトライト 1～6歳 小粒 肥満傾向の成犬用 チキン",
+    "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,ターキー,小大麦,エンドウ豆,トウモロコシ,米,トマト,柑橘類,ほうれん草",
+    "age": "成犬",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-adult-light-small-miniature-chicken-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット シニア 7歳以上 小粒 高齢犬用 チキン",
+    "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "小大麦,米,トウモロコシ,鶏肉,ターキー,オーツ麦,大麦,トマト,柑橘類,ほうれん草",
+    "age": "シニア",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-small-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 11歳以上 小粒 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,ターキー,米,小大麦,トウモロコシ,オーツ麦,大麦,魚,トマト,柑橘類,ほうれん草",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "米",
-      "小大麦",
-      "トウモロコシ",
-      "オーツ麦",
-      "大麦",
-      "魚",
-      "トマト",
-      "柑橘類",
-      "ほうれん草"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-senior-11-small-miniature-chicken-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-senior-11-small-miniature-chicken-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニア 小型犬用 高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉,ターキー,トウモロコシ,小大麦,米,大麦,オーツ麦,トマト,柑橘類,ほうれん草",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "トウモロコシ",
-      "小大麦",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "トマト",
-      "柑橘類",
-      "ほうれん草"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-senior-small-toy-age-defying-dry"
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-senior-small-toy-age-defying-dry",
+    "url": ""
   },
   {
     "name": "ヒルズ サイエンス・ダイエット シニアライト 7歳以上 小粒 肥満傾向の高齢犬用 チキン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "小大麦,トウモロコシ,鶏肉,ターキー,エンドウ豆,オーツ麦,大麦,米",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "未登録",
     "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-light-mini-chicken-dry",
+    "url": ""
+  },
+  {
+    "name": "ヒルズ サイエンス・ダイエット パピー 12ヶ月まで 小粒 子犬用 チキン",
+    "animal": "dog",
     "ingredients": [
-      "小大麦",
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "エンドウ豆",
-      "オーツ麦",
-      "大麦",
-      "米"
+      "小粒"
     ],
-    "size": "小粒",
-    "price": null,
-    "weight": "1.4kg",
-    "url": "https://www.hills.co.jp/dog-food/science-diet-mature-adult-7-light-mini-chicken-dry"
+    "actualIngredients": "鶏肉,ターキー,米,小大麦,トウモロコシ,魚,オーツ麦,トマト,柑橘類,ほうれん草",
+    "age": "子犬or母犬",
+    "sizeCategory": "小型",
+    "size": "未登録",
+    "maker": "ヒルズ",
+    "price": "1.4kg",
+    "weight": "https://www.hills.co.jp/dog-food/science-diet-puppy-small-mini-chicken-dry",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ ダイジェスティブ ケア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥）・米・動物性油脂・加水分解タンパク（鶏、七面鳥、豚）・超高消化性植物性タンパク・小麦・小麦粉・大麦・コーングルテン・ビートパルプ・酵母および酵母エキス・魚油・大豆油・植物性繊維・フラクトオリゴ糖・マリーゴールド・ゼオライト",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2904,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "米",
-      "小大麦",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2904,
-    "weight": "1kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-digestive-care-2447"
+    "price": "1kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-digestive-care-2447",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ ライト ウェイト ケア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥）・植物性繊維・コーン・大麦・コーンフラワー・コーングルテン・超高消化性植物性タンパク・加水分解タンパク（鶏、七面鳥、豚）・小麦・動物性油脂・ビートパルプ・魚油・酵母および酵母エキス・フラクトオリゴ糖・サイリウム・大豆油・グルコサミン・マリーゴールド・加水分解軟骨",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": 7416,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "トウモロコシ",
-      "大麦",
-      "小大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7416,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-light-weight-care-2446"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-light-weight-care-2446",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ インドア パピー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・肉類（鶏、七面鳥、ダック）・動物性油脂・超高消化性小麦タンパク・コーン・コーンフラワー・ビートパルプ・加水分解タンパク（鶏、七面鳥）・コーングルテン・大豆油・魚油・フラクトオリゴ糖・加水分解酵母・藻類油・マリーゴールド・ユッカエキス・ゼオライト",
     "age": "子犬",
     "sizeCategory": "小型",
+    "size": 2232,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "トウモロコシ",
-      "小大麦",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2232,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-puppy-2433"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-puppy-2433",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ インドア シニア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・コーン・肉類（鶏、七面鳥、ダック）・小麦粉・動物性油脂・超高消化性小麦タンパク・加水分解タンパク（鶏、七面鳥、魚）・コーングルテン・コーンフラワー・ビートパルプ・魚油・植物性繊維・大豆油・酵母および酵母エキス・藻類油・加水分解酵母・マリーゴールド・ゼオライト",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": 2206,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2206,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-senior-2435"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-senior-2435",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ インドア アダルト",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・小麦粉・肉類（鶏、七面鳥、ダック）・コーン・動物性油脂・超高消化性小麦タンパク・加水分解タンパク（鶏、七面鳥、魚）・コーンフラワー・ビートパルプ・植物性繊維・大豆油・酵母および酵母エキス・魚油・フラクトオリゴ糖・藻類油・ゼオライト",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2105,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "トウモロコシ",
-      "小大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 2105,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-adult-2434"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-indoor-adult-2434",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム ダーマコンフォート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・超高消化性植物性タンパク・小麦・動物性油脂・コーングルテン・脱穀オート麦・コーン・加水分解タンパク（鶏、七面鳥）・大豆油・ビートパルプ・魚油・亜麻の種子・フラクトオリゴ糖・ルリシャ油・マリーゴールド・ゼオライト",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": 7416,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "小大麦",
-      "オーツ麦",
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 7416,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-dermacomfort-2442"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-dermacomfort-2442",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ ダーマコンフォート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・植物性分離タンパク・小麦・動物性油脂・コーングルテン・脱穀オート麦・コーン・加水分解タンパク（鶏、七面鳥）・大豆油・ビートパルプ・魚油・亜麻の種子・フラクトオリゴ糖・ルリシャ油・マリーゴールド・ゼオライト・ポリリン酸ナトリウム・乳化剤",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2529,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "小大麦",
-      "オーツ麦",
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 2529,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-dermacomfort-2441"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-dermacomfort-2441",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム エイジング 10+",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥）・小麦粉・コーン・コーンフラワー・米・動物性油脂・コーングルテン・小麦・ビートパルプ・加水分解タンパク（鶏、七面鳥、魚）・超高消化性小麦タンパク・魚油・大豆油・酵母および酵母エキス・サイリウム・フラクトオリゴ糖・藻類油・加水分解酵母・グルコサミン・マリーゴールド・加水分解軟骨",
     "age": "シニア",
     "sizeCategory": "中型",
+    "size": 6493,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "小大麦",
-      "トウモロコシ",
-      "米",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 6493,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-ageing-10%2B-2448"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-ageing-10%2B-2448",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ アダルト",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,ターキー,ダック,小大麦,トウモロコシ,大麦,魚",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2105,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "トウモロコシ",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2105,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-adult-3001"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-adult-3001",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム アダルト",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・小麦粉・コーン・小麦・コーンフラワー・動物性油脂・加水分解タンパク（鶏、七面鳥、魚）・大麦・ビートパルプ・超高消化性小麦タンパク・大豆油・酵母および酵母エキス・魚油・加水分解酵母・藻類油",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": 7977,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "トウモロコシ",
-      "大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7977,
-    "weight": "4kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-adult-3004"
+    "price": "4kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-adult-3004",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム アダルト 7+",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・小麦粉・コーン・米・動物性油脂・コーンフラワー・ビートパルプ・コーングルテン・加水分解タンパク（鶏、七面鳥、魚）・小麦・超高消化性小麦タンパク・大豆油・酵母および酵母エキス・魚油・サイリウム・フラクトオリゴ糖・藻類油・加水分解酵母",
     "age": "シニア",
     "sizeCategory": "中型",
+    "size": 7977,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "米",
-      "トウモロコシ",
-      "小大麦",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 7977,
-    "weight": "4kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-adult-7%2b-3005"
+    "price": "4kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-adult-7%2b-3005",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ パピー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・米・動物性油脂・超高消化性小麦タンパク・コーン・ビートパルプ・コーンフラワー・加水分解タンパク（鶏、七面鳥）・コーングルテン・大豆油・魚油・フラクトオリゴ糖・加水分解酵母・藻類油・マリーゴールド・ユッカエキス・ゼオライト",
     "age": "子犬",
     "sizeCategory": "小型",
+    "size": 2232,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "米",
-      "トウモロコシ",
-      "小大麦",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2232,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/puppy---mini-3000"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/puppy---mini-3000",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム ライト ウェイト ケア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥）・植物性繊維・コーン・小麦・大麦・コーングルテン・加水分解タンパク（鶏、七面鳥、豚）・コーンフラワー・動物性油脂・米・ビートパルプ・超高消化性植物性タンパク・酵母および酵母エキス・魚油・フラクトオリゴ糖・サイリウム・大豆油・加水分解酵母・グルコサミン・マリーゴールド・加水分解軟骨",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": 5500,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "トウモロコシ",
-      "小大麦",
-      "大麦",
-      "米",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 5500,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-light-weight-care-3021"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-light-weight-care-3021",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ ステアライズド",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "トウモロコシ,鶏肉,ターキー,小大麦,魚,大豆",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2529,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "小大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 2529,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-sterilised-3185"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-sterilised-3185",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム パピー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・動物性油脂・超高消化性小麦タンパク（消化率90%以上）・コーン・ビートパルプ・小麦粉・コーングルテン・米・加水分解タンパク（鶏、七面鳥）・小麦・コーンフラワー・大豆油・酵母および酵母エキス・魚油・フラクトオリゴ糖・加水分解酵母・藻類油・マリーゴールド・ユッカエキス",
     "age": "子犬",
     "sizeCategory": "中型",
+    "size": 8459,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "トウモロコシ",
-      "米",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 8459,
-    "weight": "4kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-puppy-3003"
+    "price": "4kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-puppy-3003",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ ステアライズド",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "トウモロコシ,鶏肉,ターキー,小大麦,魚,大豆",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": 7416,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "小大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7416,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-sterilised-3035"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-sterilised-3035",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミディアム ステアライズド",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "トウモロコシ,鶏肉,ターキー,小大麦,魚,大豆",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": 7416,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "小大麦",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7416,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-sterilised-3034"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/medium-sterilised-3034",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン エクストラスモール ライト ウェイト ケア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "コーン・肉類（鶏、七面鳥）・コーンフラワー・超高消化性植物性タンパク（消化率90%以上）・大麦・コーングルテン・動物性油脂・加水分解タンパク（鶏、七面鳥、豚）・小麦・チコリー・植物性繊維・サイリウム・大豆油・魚油・酵母および酵母エキス・脂肪酸塩・フラクトオリゴ糖・ルリシャ油・グルコサミン・マリーゴールドエキス・加水分解軟骨・セルロース",
     "age": "成犬",
     "sizeCategory": "超小型",
+    "size": 2529,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "トウモロコシ",
-      "鶏肉",
-      "ターキー",
-      "大麦",
-      "小大麦",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2529,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/x-small-light-weight-care-1230"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/x-small-light-weight-care-1230",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ エクシジェント",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥）・動物性油脂・米・植物性分離タンパク（消化率90%以上）・小麦粉・コーンフラワー・加水分解タンパク（鶏、七面鳥）・植物性繊維・ビートパルプ・魚油・フラクトオリゴ糖・ルリシャ油・マリーゴールドエキス",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 2529,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "米",
-      "小大麦",
-      "トウモロコシ",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2529,
-    "weight": "800g",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-exigent-1006"
+    "price": "800g",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-exigent-1006",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ パピー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・超高消化性小麦タンパク（消化率90%以上）・米・コーンフラワー・動物性油脂・コーン・小麦粉・加水分解タンパク（鶏、七面鳥）・コーングルテン・ビートパルプ・植物性繊維・大豆油・魚油・サイリウム・フラクトオリゴ糖・加水分解酵母・藻類油・マリーゴールド・ユッカエキス・グルコサミン・加水分解軟骨",
     "age": "子犬",
     "sizeCategory": "大型",
+    "size": 8459,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "米",
-      "トウモロコシ",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 8459,
-    "weight": "4kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-puppy-3006"
+    "price": "4kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-puppy-3006",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ アダルト",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "肉類（鶏、七面鳥、ダック）・コーン・コーンフラワー・動物性油脂・小麦・米・加水分解タンパク（鶏、七面鳥、魚）・コーングルテン・ビートパルプ・大豆油・酵母および酵母エキス・魚油・藻類油・グルコサミン・加水分解軟骨",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": 7977,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "トウモロコシ",
-      "小大麦",
-      "米",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7977,
-    "weight": "4kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-adult-3007"
+    "price": "4kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-adult-3007",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ アダルト 5+",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,ターキー,ダック,米,小大麦,トウモロコシ,魚,大豆",
     "age": "シニア",
     "sizeCategory": "大型",
+    "size": 24374,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "米",
-      "小大麦",
-      "トウモロコシ",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 24374,
-    "weight": "15kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-adult-5%2b-3008"
+    "price": "15kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-adult-5%2b-3008",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン ミニ スターター マザー＆ベビードッグ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "米・肉類（鶏、七面鳥、ダック）・動物性油脂・超高消化性小麦タンパク（消化率90%以上）・コーン・ビートパルプ・加水分解タンパク（鶏、七面鳥）・大豆油・魚油・フラクトオリゴ糖・加水分解酵母・藻類油・酪酸ナトリウム・マリーゴールド",
     "age": "子犬",
     "sizeCategory": "小型",
+    "size": 2640,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "米",
-      "鶏肉",
-      "ターキー",
-      "ダック",
-      "小大麦",
-      "トウモロコシ",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": 2640,
-    "weight": "1kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-starter-2990"
+    "price": "1kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/mini-starter-2990",
+    "url": ""
   },
   {
     "name": "ロイヤルカナン マキシ ダーマコンフォート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "小麦・植物性分離タンパク・米・動物性油脂・コーングルテン・コーン・脱穀オート麦・加水分解タンパク（鶏、七面鳥）・大豆油・ビートパルプ・魚油・亜麻の種子・フラクトオリゴ糖・ルリシャ油・マリーゴールドエキス",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": 7416,
     "maker": "ロイヤルカナン",
-    "ingredients": [
-      "小大麦",
-      "米",
-      "オーツ麦",
-      "鶏肉",
-      "ターキー",
-      "トウモロコシ",
-      "魚",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": 7416,
-    "weight": "3kg",
-    "url": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-dermacomfort-2444"
+    "price": "3kg",
+    "weight": "https://www.royalcanin.com/jp-shop/dogs/products/retail-products/maxi-dermacomfort-2444",
+    "url": ""
   },
   {
     "name": "モグワンドッグフード チキン＆サーモン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,魚,さつまいも,エンドウ豆,レンズ豆,ひよこ豆,ビール酵母,アルファルファ,ココナッツオイル,バナナ,リンゴ,海藻,クランベリー,かぼちゃ,カモミール,マリーゴールド,セイヨウタンポポ,トマト,ショウガ,アスパラガス,パパイヤ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 5940,
     "maker": "モグワン",
-    "ingredients": [
-      "鶏肉",
-      "魚",
-      "さつまいも",
-      "エンドウ豆",
-      "レンズ豆",
-      "ひよこ豆",
-      "ビール酵母",
-      "アルファルファ",
-      "ココナッツオイル",
-      "バナナ",
-      "リンゴ",
-      "海藻",
-      "クランベリー",
-      "かぼちゃ",
-      "カモミール",
-      "マリーゴールド",
-      "セイヨウタンポポ",
-      "トマト",
-      "ショウガ",
-      "アスパラガス",
-      "パパイヤ"
-    ],
-    "size": "普通",
-    "price": 5940,
-    "weight": "1.8kg",
-    "url": "https://www.mogwandogfood.co.jp/cart"
+    "price": "1.8kg",
+    "weight": "https://www.mogwandogfood.co.jp/cart",
+    "url": ""
   },
   {
     "name": "モグワンドッグフード マグロ＆白身魚",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "魚,さつまいも,エンドウ豆,ヒマワリオイル,エンドウ豆デンプン,チコリー,アルファルファ,リンゴ,ひよこ豆,ココナッツオイル,ビール酵母,海藻,クランベリー,ブルーベリー,カモミール,マリーゴールド,セイヨウタンポポ,トマト,にんじん,ユッカ,グルコサミン,コンドロイチン,MSM",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 5940,
     "maker": "モグワン",
-    "ingredients": [
-      "魚",
-      "さつまいも",
-      "エンドウ豆",
-      "ヒマワリオイル",
-      "エンドウ豆デンプン",
-      "チコリー",
-      "アルファルファ",
-      "リンゴ",
-      "ひよこ豆",
-      "ココナッツオイル",
-      "ビール酵母",
-      "海藻",
-      "クランベリー",
-      "ブルーベリー",
-      "カモミール",
-      "マリーゴールド",
-      "セイヨウタンポポ",
-      "トマト",
-      "にんじん",
-      "ユッカ",
-      "グルコサミン",
-      "コンドロイチン",
-      "MSM"
-    ],
-    "size": "普通",
-    "price": 5940,
-    "weight": "1.8kg",
-    "url": "https://www.mogwandogfood.co.jp/cart"
+    "price": "1.8kg",
+    "weight": "https://www.mogwandogfood.co.jp/cart",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン パフォーマンス 子犬期からのケア",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "乾燥チキン・チキン・鶏脂・米・小麦・オーツ麦・小麦タンパク・タンパク加水分解物・大麦・ビートパルプ・フィッシュパウダー・魚油・コロストラム",
     "age": "子犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "小大麦",
-      "オーツ麦",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "600g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-performance-all"
+    "price": "600g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-performance-all",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 小型犬 チキン 筋肉バランスのサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・米・家禽ミール・牛脂・脱脂大豆・コーングルテン・とうもろこし・小麦・とうもろこし胚芽・卵・たんぱく加水分解物・酵母・小麦アリューロン・フィッシュパウダー・植物性油脂",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "家禽ミール",
-      "牛肉",
-      "脱脂大豆",
-      "トウモロコシ",
-      "小大麦",
-      "卵",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.5kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-optilife-s"
+    "price": "2.5kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-optilife-s",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 中型犬・大型犬 チキン 筋肉バランスのサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・米・小麦・家禽ミール・牛脂・脱脂大豆・とうもろこし・コーングルテン・たんぱく加水分解物・フィッシュパウダー・卵・小麦アリューロン・植物性油脂",
     "age": "成犬",
     "sizeCategory": "中・大型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "小大麦",
-      "家禽ミール",
-      "牛肉",
-      "脱脂大豆",
-      "トウモロコシ",
-      "たんぱく加水分解物",
-      "魚",
-      "卵"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.5kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-optilife-ml"
+    "price": "2.5kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-optilife-ml",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 9歳頃～ 小型犬 チキン 脳と記憶力のサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・小麦・米・とうもろこし・コーングルテン・中鎖脂肪酸・ビートパルプ・大豆ミール・小麦たんぱく・たんぱく加水分解物・動物性油脂・魚油",
     "age": "シニア",
     "sizeCategory": "小型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "小大麦",
-      "米",
-      "トウモロコシ",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.5kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-optiage-s"
+    "price": "2.5kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-optiage-s",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 7歳頃～ 中型犬・大型犬 チキン 脳と記憶力のサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・小麦・米・とうもろこし・コーングルテン・中鎖脂肪酸・ビートパルプ・大豆ミール・小麦たんぱく・動物性油脂・たんぱく加水分解物・魚油",
     "age": "シニア",
     "sizeCategory": "中・大型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "小大麦",
-      "米",
-      "トウモロコシ",
-      "大豆",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.5kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-optiage-ml"
+    "price": "2.5kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-optiage-ml",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 子犬用(1歳まで) 超小型犬・小型犬 チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "乾燥チキン・チキン・鶏脂・小麦タンパク・米・小麦・オーツ麦・タンパク加水分解物・大麦・とうもろこしタンパク・ビートパルプ・フィッシュパウダー・魚油・コロストラム",
     "age": "子犬",
     "sizeCategory": "小型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "小大麦",
-      "米",
-      "オーツ麦",
-      "大麦",
-      "トウモロコシ",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-immunity-s"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-immunity-s",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 子犬用(1歳まで) 中型犬・大型犬 チキン 健康的な成長と発達をサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "乾燥チキン・チキン・米・小麦・オーツ麦・鶏脂肪・小麦タンパク・タンパク加水分解物・大麦・ビートパルプ・フィッシュパウダー・魚油・コロストラム",
     "age": "子犬",
     "sizeCategory": "中・大型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "小大麦",
-      "オーツ麦",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "3kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-immunity-ml"
+    "price": "3kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-immunity-ml",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 子犬用(1歳まで) 全犬種 皮膚と胃腸の健康ケア サーモン&あじ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "フィッシュ（サーモン、あじ）・米・ソルガム・オーツ麦・鶏脂肪・エンドウ豆タンパク・タンパク加水分解物・ビートパルプ・魚油・チコリ・コロストラム",
     "age": "子犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "魚",
-      "あじ",
-      "米",
-      "ソルガム",
-      "オーツ麦",
-      "鶏肉",
-      "エンドウ豆"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-skincare-all"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-skincare-all",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 超小型犬・小型犬 皮膚と胃腸の健康ケア サーモン&あじ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "フィッシュ（サーモン、あじ）・米・ソルガム・オーツ麦・鶏脂肪・エンドウ豆タンパク・タンパク加水分解物・ビートパルプ・魚油・チコリ",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "魚",
-      "あじ",
-      "米",
-      "ソルガム",
-      "オーツ麦",
-      "エンドウ豆"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-skincare-s"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-skincare-s",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 中型犬・大型犬 皮膚と胃腸の健康ケア サーモン&あじ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "フィッシュ（サーモン、あじ）・米・ソルガム・オーツ麦・鶏脂肪・タンパク加水分解物・エンドウ豆タンパク・ビートパルプ・魚油・チコリ",
     "age": "成犬",
     "sizeCategory": "中・大型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "魚",
-      "あじ",
-      "米",
-      "ソルガム",
-      "オーツ麦",
-      "鶏肉",
-      "エンドウ豆"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "3kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-skincare-ml"
+    "price": "3kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-skincare-ml",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 超小型犬・小型犬 成犬の健康維持をサポート チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "乾燥チキン・チキン・米・オーツ麦・小麦・鶏脂肪・小麦タンパク・大麦・タンパク加水分解物・ビートパルプ・魚油・チコリ・乳酸菌",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "オーツ麦",
-      "小大麦",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-essential-health-s"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-essential-health-s",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 中型犬 成犬の健康維持をサポート チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "乾燥チキン・チキン・米・小麦・オーツ麦・大麦・鶏脂肪・小麦タンパク・タンパク加水分解物・ビートパルプ・魚油・乳酸菌",
     "age": "成犬",
     "sizeCategory": "中型",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "小大麦",
-      "オーツ麦",
-      "大麦",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "3kg",
-    "url": "https://purina.nestle.jp/food/dog/proplan-essential-health-m"
+    "price": "3kg",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-essential-health-m",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 全犬種 健康的な体重ケア（ほぐし粒入り）チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・米・とうもろこしタンパク・家禽ミール・とうもろこし・脱脂大豆・小麦・とうもろこし胚芽・牛脂・卵・フィッシュパウダー・タンパク加水分解物・エンドウ豆繊維・小麦アリューロン・植物性油脂・乳酸菌・グリセリン",
     "age": "成犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "トウモロコシ",
-      "家禽ミール",
-      "脱脂大豆",
-      "小大麦",
-      "牛肉",
-      "卵",
-      "魚"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-weightcare-all"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-weightcare-all",
+    "url": ""
   },
   {
     "name": "ピュリナ プロプラン 成犬用 7歳頃～ 全犬種 健康な脳と記憶力のサポート",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・家禽ミール・米・とうもろこし・とうもろこしタンパク・小麦・とうもろこし胚芽・食物性油脂・大麦・フィッシュパウダー・卵・タンパク加水分解物・魚油・大豆油・牛脂・乳酸菌",
     "age": "シニア",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ プロプラン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "トウモロコシ",
-      "小大麦",
-      "大麦",
-      "魚",
-      "卵",
-      "大豆"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://purina.nestle.jp/food/dog/proplan-memory-all"
+    "price": "800g",
+    "weight": "https://purina.nestle.jp/food/dog/proplan-memory-all",
+    "url": ""
   },
   {
     "name": "ピュリナ ワン ドッグ ほぐし粒入り 成犬用 1～6歳 チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・米・コーングルテン・とうもろこし・牛脂・チキンミール・小麦・脱脂大豆・たんぱく加水分解物・えんどう豆・にんじん",
     "age": "成犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ ワン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "トウモロコシ",
-      "牛肉",
-      "小大麦",
-      "脱脂大豆",
-      "エンドウ豆",
-      "にんじん"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.1kg",
-    "url": "https://purina.nestle.jp/food/dog/one-adult"
+    "price": "2.1kg",
+    "weight": "https://purina.nestle.jp/food/dog/one-adult",
+    "url": ""
   },
   {
     "name": "ピュリナ ワン ドッグ ほぐし粒入り これからも健康ケア 7歳以上 チキン",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "チキン・米・脱脂大豆・コーングルテン・チキンミール・とうもろこし・油脂類（中鎖脂肪酸、牛脂、植物性油脂）・オーツ麦・とうもろこし胚芽・小麦・たんぱく加水分解物・えんどう豆・魚粉・卵・にんじん",
     "age": "シニア",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ ワン",
-    "ingredients": [
-      "鶏肉",
-      "米",
-      "脱脂大豆",
-      "トウモロコシ",
-      "オーツ麦",
-      "小大麦",
-      "魚",
-      "卵",
-      "エンドウ豆",
-      "にんじん"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.1kg",
-    "url": "https://purina.nestle.jp/food/dog/one-senior"
+    "price": "2.1kg",
+    "weight": "https://purina.nestle.jp/food/dog/one-senior",
+    "url": ""
   },
   {
     "name": "ピュリナ ワン ドッグ ほぐし粒入り 体重ケア 1歳以上 ターキー",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ターキー・米・脱脂大豆・コーングルテン・チキンミール・オーツ麦・小麦・とうもろこし胚芽・とうもろこし・大豆胚芽・牛脂・たんぱく加水分解物・えんどう豆・にんじん",
     "age": "成犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ ワン",
-    "ingredients": [
-      "ターキー",
-      "米",
-      "脱脂大豆",
-      "トウモロコシ",
-      "鶏肉",
-      "オーツ麦",
-      "小大麦",
-      "大豆",
-      "牛肉",
-      "エンドウ豆",
-      "にんじん"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "2.1kg",
-    "url": "https://purina.nestle.jp/food/dog/one-diet"
+    "price": "2.1kg",
+    "weight": "https://purina.nestle.jp/food/dog/one-diet",
+    "url": ""
   },
   {
     "name": "ピュリナ ワン ドッグ 1歳以上 デリケートなお腹と皮膚の健康ケア 小粒 サーモン",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "サーモン・米・大麦・オーツ麦・コーングルテン・チキンミール・牛脂・たんぱく加水分解物・魚油・えんどう豆・にんじん",
     "age": "成犬",
     "sizeCategory": "全犬種",
+    "size": "",
     "maker": "ピュリナ ワン",
-    "ingredients": [
-      "魚",
-      "米",
-      "大麦",
-      "オーツ麦",
-      "トウモロコシ",
-      "鶏肉",
-      "エンドウ豆",
-      "にんじん"
-    ],
-    "size": "小粒",
-    "price": null,
-    "weight": "2.1kg",
-    "url": "https://purina.nestle.jp/food/dog/one-sensitive"
+    "price": "2.1kg",
+    "weight": "https://purina.nestle.jp/food/dog/one-sensitive",
+    "url": ""
   },
   {
     "name": "K9 Natural ラム・オーブンベイクド",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "羊肉,オーツ麦,米,羊肉レバー,魚,にんじん,かぼちゃ,キウイフルーツ,ブルーベリー,魚介類,昆布",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 3850,
     "maker": "K9ナチュラル",
-    "ingredients": [
-      "羊肉",
-      "オーツ麦",
-      "米",
-      "羊肉レバー",
-      "魚",
-      "にんじん",
-      "かぼちゃ",
-      "キウイフルーツ",
-      "ブルーベリー",
-      "魚介類",
-      "昆布"
-    ],
-    "size": "普通",
-    "price": 3850,
-    "weight": "1kg",
-    "url": "https://www.k9natural.jp/products/k9naturalovenbakedlambrecipe"
+    "price": "1kg",
+    "weight": "https://www.k9natural.jp/products/k9naturalovenbakedlambrecipe",
+    "url": ""
   },
   {
     "name": "K9 Natural チキン・オーブンベイクド",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,オーツ麦,米,鶏肉レバー,魚,にんじん,かぼちゃ,キウイフルーツ,ブルーベリー,魚介類,昆布,マヌカハニー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 3850,
     "maker": "K9ナチュラル",
-    "ingredients": [
-      "鶏肉",
-      "オーツ麦",
-      "米",
-      "鶏肉レバー",
-      "魚",
-      "にんじん",
-      "かぼちゃ",
-      "キウイフルーツ",
-      "ブルーベリー",
-      "魚介類",
-      "昆布",
-      "マヌカハニー"
-    ],
-    "size": "普通",
-    "price": 3850,
-    "weight": "1kg",
-    "url": "https://www.k9natural.jp/products/k9naturalovenbakedchickenrecipe"
+    "price": "1kg",
+    "weight": "https://www.k9natural.jp/products/k9naturalovenbakedchickenrecipe",
+    "url": ""
   },
   {
     "name": "アカナ アダルトスモールブリードレシピ",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "鶏肉・鶏肉ミール・赤レンズ豆・グリーンピース・ヒヨコ豆・ターキーミール・鶏脂・鶏内臓（レバー・ハート）・卵・ヘイク・フィッシュオイル・ニシンミール・グリーンレンズ豆・イエローピース・レンズ豆繊維・エンドウ豆でん粉・七面鳥レバー・昆布・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・チコリー根・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "成犬",
     "sizeCategory": "小型",
+    "size": 1408,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "ひよこ豆",
-      "ターキー",
-      "鶏肉内臓",
-      "卵",
-      "ヘイク",
-      "魚"
-    ],
-    "size": "小粒",
-    "price": 1408,
-    "weight": "340g",
-    "url": "https://acana.net/products/adult-small-breed-recipe"
+    "price": "340g",
+    "weight": "https://acana.net/products/adult-small-breed-recipe",
+    "url": ""
   },
   {
     "name": "アカナ パシフィカドッグ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ニシン・サーモン・カレイ・ニシンミール・サーモンミール・ブルーホワイティングミール・赤レンズ豆・ヒヨコ豆・グリーンピース・グリーンレンズ豆・フィッシュオイル・ヘイク・ロックフィッシュ・ピント豆・イエローピース・エンドウ豆でん粉・ひまわり油・レンズ豆繊維・昆布・酵母・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・チコリー根・ウコン・サルサパリラ根・マシュマロ根・ローズヒップ・ジュニパーベリー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "魚",
-      "カレイ",
-      "ヘイク",
-      "メバル",
-      "ひよこ豆",
-      "エンドウ豆",
-      "レンズ豆",
-      "魚オイル",
-      "ピント豆",
-      "イエローピース",
-      "かぼちゃ",
-      "にんじん",
-      "りんご",
-      "洋梨"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/pacifica"
+    "price": "2kg",
+    "weight": "https://acana.net/products/pacifica",
+    "url": ""
   },
   {
     "name": "アカナ ライト&フィットレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・ターキー・チキンミール・ターキーミール・赤レンズ豆・グリーンピース・レンズ豆繊維・イエローピース・ヒラメ・鶏スープ・乾燥かぼちゃ・グリーンレンズ豆・ピント豆・ヒヨコ豆・ニシンミール・フィッシュオイル・鶏レバー・卵・エンドウ豆でん粉・鶏脂・鶏ハート・昆布・かぼちゃ・コラードグリーン・リンゴ・洋ナシ・チコリー根・ウコン・サルサパリラ根・マシュマロ根・ローズヒップ・ジュニパーベリー",
     "age": "成犬",
     "sizeCategory": "全犬種",
+    "size": 6358,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "ひよこ豆",
-      "鶏肉内臓",
-      "ターキー",
-      "卵",
-      "ヘイク",
-      "イエローピース",
-      "魚",
-      "魚オイル",
-      "七面鳥レバー",
-      "かぼちゃ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 6358,
-    "weight": "2kg",
-    "url": "https://acana.net/products/light-fit-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/light-fit-recipe",
+    "url": ""
   },
   {
     "name": "アカナ パピースモールブリードレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・チキンミール・赤レンズ豆・グリーンピース・鶏内臓（レバー・ハート）・鶏脂・ターキーミール・卵・ヒラメ・ニシンミール・フィッシュオイル・グリーンレンズ豆・ヒヨコ豆・イエローピース・エンドウ豆繊維・エンドウ豆でん粉・七面鳥レバー・昆布・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "子犬",
     "sizeCategory": "小型",
+    "size": 6358,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "鶏肉内臓",
-      "ターキー",
-      "卵",
-      "ヘイク",
-      "魚",
-      "ひよこ豆",
-      "イエローピース",
-      "七面鳥レバー",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "チコリー",
-      "ケール",
-      "ほうれん草",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 6358,
-    "weight": "2kg",
-    "url": "https://acana.net/products/puppy-small-breed"
+    "price": "2kg",
+    "weight": "https://acana.net/products/puppy-small-breed",
+    "url": ""
   },
   {
     "name": "アカナ グラスフェッドラム",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "ラム肉・ラムミール・グリーンピース・赤レンズ豆・ラムレバー・キャノーラ油・リンゴ・ヒヨコ豆・グリーンレンズ豆・イエローピース・レンズ豆繊維・エンドウ豆でん粉・ひまわり油・藻類・ラムトライプ・ラム腎臓・バターナッツスクワッシュ・かぼちゃ・乾燥ケルプ・クランベリー・ブルーベリー・チコリー根・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "生羊肉肉",
-      "羊肉",
-      "エンドウ豆",
-      "赤レンズ豆",
-      "羊肉レバー",
-      "キャノーラ油",
-      "リンゴ",
-      "ひよこ豆",
-      "緑レンズ豆",
-      "イエローピース",
-      "レンズ豆繊維",
-      "ヒマワリ油",
-      "海藻",
-      "羊肉トライプ",
-      "羊肉腎臓",
-      "バターナッツスクワッシュ",
-      "かぼちゃ",
-      "ケルプ",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/lamb-with-apple-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/lamb-with-apple-recipe",
+    "url": ""
   },
   {
     "name": "アカナ レッドミートレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "牛肉・ラムミール・大麦・グリーンピース・オーツ麦・豚脂・ポークミール・ヒヨコ豆繊維・豚肉・フィッシュオイル・昆布・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・チコリー根・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 5720,
     "maker": "アカナ",
-    "ingredients": [
-      "牛肉",
-      "羊肉",
-      "大麦",
-      "エンドウ豆",
-      "オーツ麦",
-      "豚肉",
-      "ひよこ豆",
-      "魚",
-      "ケルプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 5720,
-    "weight": "2kg",
-    "url": "https://acana.net/products/classic-red"
+    "price": "2kg",
+    "weight": "https://acana.net/products/classic-red",
+    "url": ""
   },
   {
     "name": "アカナ ワイルドコーストレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "サーモン・ニシンミール・大麦・グリーンピース・オーツ麦・豚脂・ヒヨコ豆繊維・フィッシュオイル・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・昆布・チコリー根・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 5720,
     "maker": "アカナ",
-    "ingredients": [
-      "魚",
-      "大麦",
-      "エンドウ豆",
-      "オーツ麦",
-      "豚肉",
-      "ひよこ豆",
-      "ケルプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 5720,
-    "weight": "2kg",
-    "url": "https://acana.net/products/ns-aca-wildcoast"
+    "price": "2kg",
+    "weight": "https://acana.net/products/ns-aca-wildcoast",
+    "url": ""
   },
   {
     "name": "アカナ パピーレシピ",
     "animal": "dog",
+    "ingredients": [
+      "小粒"
+    ],
+    "actualIngredients": "チキン・ターキー・チキンミール・グリーンピース・赤レンズ豆・鶏脂・ターキーミール・ヒラメ・卵・フィッシュオイル・イエローピース・レンズ豆繊維・鶏スープ・ヒヨコ豆・グリーンレンズ豆・ピント豆・エンドウ豆でん粉・鶏レバー・鶏ハート・かぼちゃ・コラードグリーン・リンゴ・洋ナシ・塩・昆布・チコリー根・ウコン・サルサパリラ根・マシュマロ根・ローズヒップ・ジュニパーベリー",
     "age": "子犬",
     "sizeCategory": "全犬種",
+    "size": 6358,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "鶏肉内臓",
-      "ターキー",
-      "卵",
-      "ヘイク",
-      "魚",
-      "緑レンズ豆",
-      "ひよこ豆",
-      "イエローピース",
-      "七面鳥レバー",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "チコリー",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "小粒",
-    "price": 6358,
-    "weight": "2kg",
-    "url": "https://acana.net/products/puppy-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/puppy-recipe",
+    "url": ""
   },
   {
     "name": "アカナ シニアドッグレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,赤レンズ豆,エンドウ豆,ターキー,ひよこ豆,鶏肉内臓,卵,ヘイク,魚オイル,魚,緑レンズ豆,イエローピース,七面鳥レバー,ケルプ,かぼちゃ,バターナッツスクワッシュ,にんじん,りんご,洋梨,ズッキーニ,チコリ,ケール,ほうれん草,カブラ菜,ビートの葉,クランベリー,ブルーベリー",
     "age": "シニア",
     "sizeCategory": "全犬種",
+    "size": 6358,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "ターキー",
-      "ひよこ豆",
-      "鶏肉内臓",
-      "卵",
-      "ヘイク",
-      "魚オイル",
-      "魚",
-      "緑レンズ豆",
-      "イエローピース",
-      "七面鳥レバー",
-      "ケルプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "りんご",
-      "洋梨",
-      "ズッキーニ",
-      "チコリ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 6358,
-    "weight": "2kg",
-    "url": "https://acana.net/products/senior-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/senior-recipe",
+    "url": ""
   },
   {
     "name": "アカナ パピーラージブリードレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・チキンミール・赤レンズ豆・グリーンピース・鶏内臓（レバー・ハート）・ニシンミール・卵・ヒラメ・フィッシュオイル・ヒヨコ豆・エンドウ豆繊維・エンドウ豆でん粉・ターキーミール・グリーンレンズ豆・イエローピース・鶏脂・七面鳥レバー・リンゴ・バターナッツスクワッシュ・ニンジン・洋ナシ・かぼちゃ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・ブルーベリー・クランベリー・サスカトゥーンベリー・ゴボウ・ラベンダー・マシュマロ根・オオアザミ・ローズヒップ・ウコン",
     "age": "子犬",
     "sizeCategory": "大型",
+    "size": 21450,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "鶏肉内臓",
-      "卵",
-      "ヘイク",
-      "魚",
-      "ターキー",
-      "ひよこ豆",
-      "緑レンズ豆",
-      "イエローピース",
-      "七面鳥レバー",
-      "りんご",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "洋梨",
-      "かぼちゃ",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "ブルーベリー",
-      "クランベリー"
-    ],
-    "size": "普通",
-    "price": 21450,
-    "weight": "11.4kg",
-    "url": "https://acana.net/products/puppy-large-breed-recipe"
+    "price": "11.4kg",
+    "weight": "https://acana.net/products/puppy-large-breed-recipe",
+    "url": ""
   },
   {
     "name": "アカナ アダルトラージブリードレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・チキンミール・赤レンズ豆・グリーンピース・ターキーミール・ヒヨコ豆・鶏内臓（レバー・ハート）・鶏脂・卵・ヘイク・フィッシュオイル・ニシンミール・グリーンレンズ豆・イエローピース・レンズ豆繊維・エンドウ豆でん粉・七面鳥レバー・昆布・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "成犬",
     "sizeCategory": "大型",
+    "size": 21450,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "ターキー",
-      "ひよこ豆",
-      "鶏肉内臓",
-      "卵",
-      "ヘイク",
-      "魚",
-      "緑レンズ豆",
-      "イエローピース",
-      "七面鳥レバー",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "りんご",
-      "洋梨",
-      "ズッキーニ",
-      "チコリ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 21450,
-    "weight": "11.4kg",
-    "url": "https://acana.net/products/adult-large-breed-recipe"
+    "price": "11.4kg",
+    "weight": "https://acana.net/products/adult-large-breed-recipe",
+    "url": ""
   },
   {
     "name": "アカナ アダルトドッグレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・チキンミール・赤レンズ豆・グリーンピース・ヒヨコ豆・鶏内臓（レバー・ハート）・ターキーミール・鶏脂・卵・ヘイク・レンズ豆繊維・エンドウ豆でん粉・フィッシュオイル・グリーンレンズ豆・イエローピース・ニシンミール・七面鳥レバー・昆布・リンゴ・バターナッツスクワッシュ・ニンジン・洋ナシ・かぼちゃ・ズッキーニ・ビート葉・ケール・ホウレン草・カブの葉・ブルーベリー・クランベリー・サスカトゥーンベリー・ゴボウ・ラベンダー・マシュマロ根・オオアザミ・ローズヒップ・ウコン",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 6358,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "赤レンズ豆",
-      "エンドウ豆",
-      "ひよこ豆",
-      "鶏肉内臓",
-      "七面鳥ミール",
-      "卵",
-      "ヘイク",
-      "魚",
-      "緑レンズ豆",
-      "イエローピース",
-      "魚ミール",
-      "七面鳥レバー",
-      "りんご",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "洋梨",
-      "かぼちゃ",
-      "ズッキーニ",
-      "チコリ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ブルーベリー",
-      "クランベリー"
-    ],
-    "size": "普通",
-    "price": 6358,
-    "weight": "2kg",
-    "url": "https://acana.net/products/adult-dog-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/adult-dog-recipe",
+    "url": ""
   },
   {
     "name": "アカナ プレイリーポートリーレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉・チキンミール・大麦・グリーンピース・オーツ麦・鶏脂・ヒヨコ豆繊維・フィッシュオイル・昆布・かぼちゃ・バターナッツスクワッシュ・ニンジン・リンゴ・洋ナシ・ズッキーニ・ケール・ホウレン草・カブの葉・ビート葉・クランベリー・ブルーベリー・サスカトゥーンベリー・ウコン・オオアザミ・ゴボウ・ラベンダー・マシュマロ根・ローズヒップ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 5258,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "大麦",
-      "エンドウ豆",
-      "オーツ麦",
-      "ひよこ豆",
-      "魚",
-      "ケルプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 5258,
-    "weight": "2kg",
-    "url": "https://acana.net/products/ns-aca-prairiepoultry"
+    "price": "2kg",
+    "weight": "https://acana.net/products/ns-aca-prairiepoultry",
+    "url": ""
   },
   {
     "name": "アカナ フリーランダック",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鴨,エンドウ豆,赤レンズ豆,鴨レバー,鴨脂肪,洋梨,ひよこ豆,緑レンズ豆,イエローピース,海藻,バターナッツスクワッシュ,かぼちゃ,ケルプ,クランベリー,ブルーベリー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "鴨",
-      "エンドウ豆",
-      "赤レンズ豆",
-      "鴨レバー",
-      "鴨脂肪",
-      "洋梨",
-      "ひよこ豆",
-      "緑レンズ豆",
-      "イエローピース",
-      "海藻",
-      "バターナッツスクワッシュ",
-      "かぼちゃ",
-      "ケルプ",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/free-run-duck"
+    "price": "2kg",
+    "weight": "https://acana.net/products/free-run-duck",
+    "url": ""
   },
   {
     "name": "アカナ グラスランドドッグレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "羊肉,鴨,卵,魚ミール,七面鳥ミール,赤レンズ豆,ひよこ豆,エンドウ豆,鶏肉,ターキー,トラウト,魚,羊肉レバー,緑レンズ豆,ピント豆,イエローピース,魚オイル,羊肉腎臓,羊肉トライプ,ケルプ,かぼちゃ,バターナッツスクワッシュ,にんじん,リンゴ,洋梨,ズッキーニ",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "羊肉",
-      "鴨",
-      "卵",
-      "魚ミール",
-      "七面鳥ミール",
-      "赤レンズ豆",
-      "ひよこ豆",
-      "エンドウ豆",
-      "鶏肉",
-      "ターキー",
-      "トラウト",
-      "魚",
-      "羊肉レバー",
-      "緑レンズ豆",
-      "ピント豆",
-      "イエローピース",
-      "魚オイル",
-      "羊肉腎臓",
-      "羊肉トライプ",
-      "ケルプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/grasslands"
+    "price": "2kg",
+    "weight": "https://acana.net/products/grasslands",
+    "url": ""
   },
   {
     "name": "アカナ ヨークシャポーク",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "豚肉,エンドウ豆,赤レンズ豆,豚肉レバー,バターナッツスクワッシュ,ひよこ豆,緑レンズ豆,イエローピース,海藻,かぼちゃ,ケルプ,クランベリー,ブルーベリー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "豚肉",
-      "エンドウ豆",
-      "赤レンズ豆",
-      "豚肉レバー",
-      "バターナッツスクワッシュ",
-      "ひよこ豆",
-      "緑レンズ豆",
-      "イエローピース",
-      "海藻",
-      "かぼちゃ",
-      "ケルプ",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/pork-with-squash-recipe"
+    "price": "2kg",
+    "weight": "https://acana.net/products/pork-with-squash-recipe",
+    "url": ""
   },
   {
     "name": "アカナ ワイルドプレーリードッグレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "鶏肉,ターキー,鶏肉内臓,魚ミール,七面鳥ミール,赤レンズ豆,ひよこ豆,エンドウ豆,トラウト,卵,緑レンズ豆,ピント豆,イエローピース,魚オイル,七面鳥レバー,かぼちゃ,バターナッツスクワッシュ,にんじん,リンゴ,洋梨,ズッキーニ,ケール,ほうれん草,カブラ菜,ビートの葉,クランベリー,ブルーベリー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7150,
     "maker": "アカナ",
-    "ingredients": [
-      "鶏肉",
-      "ターキー",
-      "鶏肉内臓",
-      "魚ミール",
-      "七面鳥ミール",
-      "赤レンズ豆",
-      "ひよこ豆",
-      "エンドウ豆",
-      "トラウト",
-      "卵",
-      "緑レンズ豆",
-      "ピント豆",
-      "イエローピース",
-      "魚オイル",
-      "七面鳥レバー",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 7150,
-    "weight": "2kg",
-    "url": "https://acana.net/products/wild-prairie"
+    "price": "2kg",
+    "weight": "https://acana.net/products/wild-prairie",
+    "url": ""
   },
   {
     "name": "アカナ ランチランドドッグレシピ",
     "animal": "dog",
+    "ingredients": [
+      "普通"
+    ],
+    "actualIngredients": "牛肉,羊肉,豚肉,トラウト,赤レンズ豆,ひよこ豆,エンドウ豆,ピント豆,緑レンズ豆,イエローピース,魚,牛肉レバー,牛肉腎臓,牛肉トライプ,かぼちゃ,バターナッツスクワッシュ,にんじん,リンゴ,洋梨,ズッキーニ,ケール,ほうれん草,カブラ菜,ビートの葉,クランベリー,ブルーベリー",
     "age": "全年齢",
     "sizeCategory": "全犬種",
+    "size": 7370,
     "maker": "アカナ",
-    "ingredients": [
-      "牛肉",
-      "羊肉",
-      "豚肉",
-      "トラウト",
-      "赤レンズ豆",
-      "ひよこ豆",
-      "エンドウ豆",
-      "ピント豆",
-      "緑レンズ豆",
-      "イエローピース",
-      "魚",
-      "牛肉レバー",
-      "牛肉腎臓",
-      "牛肉トライプ",
-      "かぼちゃ",
-      "バターナッツスクワッシュ",
-      "にんじん",
-      "リンゴ",
-      "洋梨",
-      "ズッキーニ",
-      "ケール",
-      "ほうれん草",
-      "カブラ菜",
-      "ビートの葉",
-      "クランベリー",
-      "ブルーベリー"
-    ],
-    "size": "普通",
-    "price": 7370,
-    "weight": "2kg",
-    "url": "https://acana.net/products/ranchlands"
+    "price": "2kg",
+    "weight": "https://acana.net/products/ranchlands",
+    "url": ""
   },
   {
     "name": "イティ ラム＆ベニソンディナー",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "イティ",
     "ingredients": [
-      "羊肉",
-      "鹿肉",
-      "魚介類"
+      "普通"
     ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "200g",
-    "url": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/"
+    "actualIngredients": "羊肉,鹿肉,魚介類",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 1980,
+    "maker": "イティ",
+    "price": "200g",
+    "weight": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/",
+    "url": ""
   },
   {
     "name": "イティ ビーフディナー",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "イティ",
     "ingredients": [
-      "牛肉",
-      "魚介類"
+      "普通"
     ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "200g",
-    "url": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/"
+    "actualIngredients": "牛肉,魚介類",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 1980,
+    "maker": "イティ",
+    "price": "200g",
+    "weight": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/",
+    "url": ""
   },
   {
     "name": "イティ チキンディナー",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "イティ",
     "ingredients": [
-      "鶏肉",
-      "魚介類"
+      "普通"
     ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "200g",
-    "url": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/"
+    "actualIngredients": "鶏肉,魚介類",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 1980,
+    "maker": "イティ",
+    "price": "200g",
+    "weight": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/",
+    "url": ""
   },
   {
     "name": "イティ ビーフ＆イールディナー",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "イティ",
     "ingredients": [
-      "牛肉",
-      "魚",
-      "魚介類"
+      "普通"
     ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "200g",
-    "url": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/"
+    "actualIngredients": "牛肉,魚,魚介類",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 1980,
+    "maker": "イティ",
+    "price": "200g",
+    "weight": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%a2%e3%83%ab%ef%bc%89/",
+    "url": ""
   },
   {
     "name": "イティ ベニソンディナー",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "イティ",
     "ingredients": [
-      "鹿肉",
-      "魚介類"
+      "普通"
     ],
-    "size": "普通",
-    "price": 1980,
-    "weight": "200g",
-    "url": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%BC%e3%82%a2%e3%83%ab%ef%bc%89/"
+    "actualIngredients": "鹿肉,魚介類",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 1980,
+    "maker": "イティ",
+    "price": "200g",
+    "weight": "https://iti311.com/food-for-dogs%e7%8a%ac%e3%83%bb%e3%83%aa%e3%83%8b%e3%83%a5%e3%83%BC%e3%82%a2%e3%83%ab%ef%bc%89/",
+    "url": ""
   },
   {
     "name": "ニュートロ ナチュラル チョイス 全犬種用 成犬用 フィッシュ＆ポテト",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "ニュートロ",
     "ingredients": [
       "魚",
       "じゃがいも",
+      "レンズ豆",
       "ひよこ豆",
-      "さつまいも"
+      "さつまいも",
+      "ひまわり油",
+      "なたね油",
+      "ビートパルプ",
+      "亜麻仁"
     ],
-    "size": "普通",
-    "price": 2566,
-    "weight": "1kg",
-    "url": "https://store.nutro.jp/products/nc_d_adult_fish_potato"
+    "actualIngredients": "サーモン（すり身）、レンズマメ、乾燥ポテト、フィッシュミール、ヒヨコマメ、サツマイモ、ポテトでん粉、ひまわり油、ポテトタンパク、キャノーラオイル、ビートパルプ、タンパク加水分解物、亜麻仁",
+    "age": "成犬",
+    "sizeCategory": "全サイズ",
+    "size": 2566,
+    "maker": "ニュートロ",
+    "price": "1kg",
+    "weight": "https://store.nutro.jp/products/nc_d_adult_fish_potato",
+    "url": ""
   },
   {
     "name": "ネルソンズドッグフード",
     "animal": "dog",
-    "age": "全年齢",
-    "sizeCategory": "中型・大型",
-    "maker": "ネルソンズ",
     "ingredients": [
       "鶏肉",
       "さつまいも",
-      "エンドウ豆",
-      "にんじん",
       "かぼちゃ",
-      "ブロッコリー"
+      "エンドウ豆",
+      "魚",
+      "にんじん",
+      "りんご",
+      "ブロッコリー",
+      "クランベリー"
     ],
-    "size": "普通",
-    "price": 9196,
-    "weight": "5kg",
-    "url": "https://www.nelsonsdogfood.jp/cart"
+    "actualIngredients": "チキン50％（チキン生肉25％、乾燥チキン25％）、サツマイモ、バターナッツスカッシュ、チキンオイル、エンドウ豆、チキングレイビー、エンドウ豆繊維、サーモンオイル、海藻、チコリ、加水分解酵母、ニンジン、パースニップ、リンゴ、カボチャ、スペアミント、インゲン豆、ブロッコリー、ローズマリー、パセリ、マリーゴールド、フェンネル、ショウガ、グルコサミン、ユッカ、クランベリー、コンドロイチン、ナシ、タウリン",
+    "age": "全年齢",
+    "sizeCategory": "中型・大型",
+    "size": 9196,
+    "maker": "ネルソンズ",
+    "price": "5kg",
+    "weight": "https://www.nelsonsdogfood.jp/cart",
+    "url": ""
   },
   {
     "name": "アレルラボ フィッシュ＆ポテト 子犬・成犬用",
     "animal": "dog",
-    "age": "全年齢",
-    "sizeCategory": "全犬種",
-    "maker": "森乳サンワールド",
     "ingredients": [
+      "じゃがいも",
       "魚",
-      "じゃがいも"
+      "トマト"
     ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-puppy-adult/"
+    "actualIngredients": "ポテト、サーモンミール、ホワイトフィッシュミール、動物性油脂、植物性油脂、トマトポマス、フィッシュダイジェスト、ユッカ抽出物",
+    "age": "全年齢",
+    "sizeCategory": "全サイズ",
+    "size": "",
+    "maker": "森乳サンワールド",
+    "price": "800g",
+    "weight": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-puppy-adult/",
+    "url": ""
   },
   {
     "name": "ネルソンズドッグフード 大型犬用",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "大型",
-    "maker": "ネルソンズ",
     "ingredients": [
       "鶏肉",
       "さつまいも",
       "トマト",
       "にんじん",
       "かぼちゃ",
-      "魚介類"
+      "貝",
+      "りんご",
+      "クランベリー"
     ],
-    "size": "普通",
-    "price": 17877,
-    "weight": "10kg",
-    "url": "https://www.nelsonsdogfood.jp/cart"
+    "actualIngredients": "チキン50％（チキン生肉25％、乾燥チキン25％）、サツマイモ、バターナッツスカッシュ、加水分解生チキンレバー、トマト、セルロース、チキンオイル、ニンジン、海藻、藻類（DHA）、カボチャ、リンゴ、緑イ貝、インゲン豆、ナシ、パースニップ、ブラックベリー、ペパーミント、ユッカ、クランベリー、ザクロ、パセリ、タウリン、グルコサミン、コンドロイチン",
+    "age": "成犬",
+    "sizeCategory": "大型",
+    "size": 17877,
+    "maker": "ネルソンズ",
+    "price": "10kg",
+    "weight": "https://www.nelsonsdogfood.jp/cart",
+    "url": ""
   },
   {
     "name": "アレルラボ フィッシュ＆ポテト 体重調整用",
     "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "森乳サンワールド",
     "ingredients": [
-      "魚",
-      "じゃがいも"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-weight-maintenance/"
-  },
-  {
-    "name": "アレルラボ フィッシュ＆ポテト プラス",
-    "animal": "dog",
-    "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "森乳サンワールド",
-    "ingredients": [
-      "魚",
       "じゃがいも",
-      "エンドウ豆",
+      "魚",
       "トマト",
-      "魚介類"
+      "ビートパルプ"
     ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potatoplus/"
-  },
-  {
-    "name": "アレルラボ フィッシュ＆ポテト シニア犬用",
-    "animal": "dog",
-    "age": "シニア",
-    "sizeCategory": "全犬種",
-    "maker": "森乳サンワールド",
-    "ingredients": [
-      "魚",
-      "じゃがいも",
-      "トマト"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-senior/"
-  },
-  {
-    "name": "アレルラボ フィッシュ＆ポテト プラスライト",
-    "animal": "dog",
-    "age": "シニア",
-    "sizeCategory": "全犬種",
-    "maker": "森乳サンワールド",
-    "ingredients": [
-      "魚",
-      "じゃがいも",
-      "エンドウ豆",
-      "トマト",
-      "魚介類"
-    ],
-    "size": "普通",
-    "price": null,
-    "weight": "800g",
-    "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potatoplus-light/"
-  },
-  {
-    "name": "ロータス グレインフリー フィッシュレシピ",
-    "animal": "dog",
+    "actualIngredients": "ポテト、サーモンミール、ホワイトフィッシュミール、フィッシュダイジェスト、トマトポマス、植物性油脂、乾燥ビートパルプ、動物性油脂、セルロース、グルコサミン、コンドロイチン硫酸、ユッカ抽出物、グレープシードエキス",
     "age": "成犬",
-    "sizeCategory": "全犬種",
-    "maker": "ロータス",
-    "ingredients": [
-      "魚",
-      "じゃがいも",
-      "エンドウ豆",
-      "卵",
-      "大豆",
-      "さつまいも",
-      "にんじん",
-      "ほうれん草",
-      "かぼちゃ"
-    ],
-    "size": "小粒",
-    "price": 3960,
-    "weight": "800g",
-    "url": "https://www.lotusjapan.net/gffish.htm"
-  },
-  {
-    "name": "このこのごはん",
-    "animal": "dog",
-    "age": "全年齢",
-    "sizeCategory": "小型",
-    "maker": "コノコトトモニ",
-    "ingredients": [
-      "鶏肉",
-      "鹿肉",
-      "魚",
-      "さつまいも"
-    ],
-    "size": "小粒",
-    "price": 3278,
-    "weight": "1kg",
-    "url": "https://shop.konokototomoni.com/lp?u=kg_047_seo_douga_001"
-  }
-]
+    "sizeCategory": "全サイズ",
+    "size": "",
+    "maker": 
