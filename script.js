@@ -133,31 +133,75 @@ fetch("foods.json")
     }
 
 
-    // =========================
-    // フード選択欄
-    // =========================
+// =========================
+// 今食べているフード検索
+// =========================
 
-    foods.forEach(food => {
+const currentFoodSearch =
+  document.getElementById("currentFoodSearch");
 
-      const option = document.createElement("option");
+const foodSuggestions =
+  document.getElementById("foodSuggestions");
 
-      option.value = food.name;
-      option.textContent = food.name;
+let selectedCurrentFood = null;
 
-      currentFood.appendChild(option);
+
+// 入力した文字から候補を表示
+currentFoodSearch.addEventListener("input", () => {
+
+  const keyword =
+    currentFoodSearch.value.trim().toLowerCase();
+
+  foodSuggestions.innerHTML = "";
+  selectedCurrentFood = null;
+
+  if (!keyword) {
+    return;
+  }
+
+  const suggestions = foods.filter(food =>
+    food.name.toLowerCase().includes(keyword)
+  );
+
+
+  if (suggestions.length === 0) {
+
+    foodSuggestions.innerHTML =
+      "<p>該当するフードがありません。</p>";
+
+    return;
+  }
+
+
+  suggestions.forEach(food => {
+
+    const button = document.createElement("button");
+
+    button.type = "button";
+    button.className = "food-suggestion";
+
+    button.textContent = food.name;
+
+    button.addEventListener("click", () => {
+
+      selectedCurrentFood = food;
+
+      currentFoodSearch.value = food.name;
+
+      foodSuggestions.innerHTML = "";
+
+      showSimilarFoods(food);
     });
+
+    foodSuggestions.appendChild(button);
+  });
+
+});
 
 // =========================
 // フードを選択したとき
 // =========================
-
-currentFood.addEventListener("change", () => {
-
-  const selectedFood = foods.find(
-    food => food.name === currentFood.value
-  );
-
-  if (!selectedFood) return;
+    function showSimilarFoods(selectedFood) {
 
   // =========================
   // 似ているフードを計算
