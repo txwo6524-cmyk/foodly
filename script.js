@@ -393,8 +393,7 @@ currentFoodSearch.addEventListener("input", () => {
 
     results.appendChild(card);
   });
-
-});
+    }
 
 
     // =========================
