@@ -65,8 +65,8 @@ fetch("foods.json")
           </p>
 
           <p>
-            原材料：${food.ingredients.join("・")}
-          </p>
+  原材料：${food.actualIngredients || "未登録"}
+</p>
 
           <p>
             メーカー：${food.maker || "未登録"}
@@ -346,8 +346,8 @@ currentFoodSearch.addEventListener("input", () => {
       </p>
 
       <p>
-        原材料：${food.ingredients.join("・")}
-      </p>
+  原材料：${food.actualIngredients || "未登録"}
+</p>
 
       <p>
         メーカー：${food.maker || "未登録"}
@@ -623,8 +623,8 @@ currentFoodSearch.addEventListener("input", () => {
           </p>
 
           <p>
-            原材料：${food.ingredients.join("・")}
-          </p>
+  原材料：${food.actualIngredients || "未登録"}
+</p>
 
           <p>
             メーカー：${food.maker || "未登録"}
