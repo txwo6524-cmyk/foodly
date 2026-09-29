@@ -166,9 +166,18 @@
 </div>
 <h2>今食べているフード</h2>
 
-<select id="currentFood">
-  <option value="">フードを選択してください</option>
-</select>
+<div class="food-search-box">
+  <input
+    type="text"
+    id="currentFoodSearch"
+    placeholder="フード名を入力してください"
+    autocomplete="off"
+  >
+
+  <div id="foodSuggestions"></div>
+</div>
+
+<div id="results"></div>
 
  
 <div id="results"></div>
