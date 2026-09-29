@@ -147,110 +147,210 @@ fetch("foods.json")
       currentFood.appendChild(option);
     });
 
+// =========================
+// フードを選択したとき
+// =========================
 
-    // =========================
-    // フードを選択したとき
-    // =========================
+currentFood.addEventListener("change", () => {
 
-    currentFood.addEventListener("change", () => {
+  const selectedFood = foods.find(
+    food => food.name === currentFood.value
+  );
 
-      const selectedFood = foods.find(
-        food => food.name === currentFood.value
-      );
+  if (!selectedFood) return;
 
-      if (!selectedFood) return;
+  // =========================
+  // 似ているフードを計算
+  // =========================
 
-      const similarFoods = foods.filter(food => {
+  const similarFoods = foods
+    .filter(food => {
 
-        if (food.name === selectedFood.name) {
-          return false;
+      // 自分自身は除外
+      if (food.name === selectedFood.name) {
+        return false;
+      }
+
+      // 犬・猫をまたがない
+      if (food.animal !== selectedFood.animal) {
+        return false;
+      }
+
+      // 共通原材料
+      const commonIngredients =
+        food.ingredients.filter(ingredient =>
+          selectedFood.ingredients.includes(ingredient)
+        );
+
+      // 共通原材料が1つもないものは除外
+      return commonIngredients.length > 0;
+    })
+
+    .map(food => {
+
+      const commonIngredients =
+        food.ingredients.filter(ingredient =>
+          selectedFood.ingredients.includes(ingredient)
+        );
+
+      // =========================
+      // 似ている度を計算
+      // =========================
+
+      let score = commonIngredients.length * 10;
+
+      // 年齢が同じなら加点
+      if (
+        selectedFood.age &&
+        food.age &&
+        food.age === selectedFood.age
+      ) {
+        score += 5;
+      }
+
+      // 全年齢なら少し加点
+      if (food.age === "全年齢") {
+        score += 2;
+      }
+
+      // 犬の場合はサイズも比較
+      if (selectedFood.animal === "dog") {
+
+        if (
+          selectedFood.sizeCategory &&
+          food.sizeCategory &&
+          selectedFood.sizeCategory === food.sizeCategory
+        ) {
+          score += 5;
         }
 
-        const commonIngredients =
-          food.ingredients.filter(
-            ingredient =>
-              selectedFood.ingredients.includes(ingredient)
-          );
+        // 全犬種はどのサイズにも対応するので少し加点
+        if (food.sizeCategory === "全犬種") {
+          score += 2;
+        }
+      }
 
-        return commonIngredients.length > 0;
-      });
+      return {
+        food,
+        commonIngredients,
+        score
+      };
+    })
 
-      results.innerHTML = "";
+    // 似ている度の高い順
+    .sort((a, b) => b.score - a.score);
 
-      const title = document.createElement("h2");
-      title.textContent = "似ているフード";
 
-      results.appendChild(title);
+  // =========================
+  // 結果表示
+  // =========================
 
-      similarFoods.forEach(food => {
+  results.innerHTML = "";
 
-        const card = document.createElement("div");
-        card.className = "food-card";
+  const title = document.createElement("h2");
+  title.textContent = "似ているフード";
 
-        card.innerHTML = `
-          <button class="favorite-button" data-food="${food.name}">
-            ${isFavorite(food.name) ? "★" : "☆"}
-          </button>
+  results.appendChild(title);
 
-          <h3>${food.name}</h3>
 
-          <p>
-            🐾 ${food.animal === "dog" ? "犬用" : "猫用"}
-          </p>
+  if (similarFoods.length === 0) {
 
-          <p>
-            共通する原材料：
-            ${
-              food.ingredients
-                .filter(ingredient =>
-                  selectedFood.ingredients.includes(ingredient)
-                )
-                .join("・")
-            }
-          </p>
+    results.innerHTML +=
+      "<p>共通する原材料を持つフードがありません。</p>";
 
-          <p>
-            原材料：${food.ingredients.join("・")}
-          </p>
+    return;
+  }
 
-          <p>
-            メーカー：${food.maker || "未登録"}
-          </p>
 
-          <p>
-            🟤 粒の大きさ：${food.size || "不明"}
-          </p>
+  similarFoods.forEach(item => {
 
-          <p>
-            💰 参考価格：
-            ${
-              food.price
-                ? `¥${food.price.toLocaleString()}（${food.weight || ""}）`
-                : "未登録"
-            }
-          </p>
+    const food = item.food;
 
-          ${
-            food.url
-              ? `<p>
-                  <a href="${food.url}" target="_blank">
-                    公式サイトを見る
-                  </a>
-                </p>`
-              : ""
-          }
-        `;
+    const card = document.createElement("div");
+    card.className = "food-card";
 
-        const favoriteButton =
-          card.querySelector(".favorite-button");
+    card.innerHTML = `
 
-        favoriteButton.addEventListener("click", () => {
-          toggleFavorite(food.name, favoriteButton);
-        });
+      <button
+        class="favorite-button"
+        data-food="${food.name}"
+      >
+        ${isFavorite(food.name) ? "★" : "☆"}
+      </button>
 
-        results.appendChild(card);
-      });
+      <h3>${food.name}</h3>
+
+      <p>
+        🐾 ${food.animal === "dog" ? "犬用" : "猫用"}
+      </p>
+
+      ${
+        food.age
+          ? `<p>🎂 年齢：${food.age}</p>`
+          : ""
+      }
+
+      ${
+        food.animal === "dog" && food.sizeCategory
+          ? `<p>📏 サイズ：${food.sizeCategory}</p>`
+          : ""
+      }
+
+      <p>
+        🔗 共通する原材料：
+        ${item.commonIngredients.join("・")}
+      </p>
+
+      <p>
+        原材料：${food.ingredients.join("・")}
+      </p>
+
+      <p>
+        メーカー：${food.maker || "未登録"}
+      </p>
+
+      <p>
+        🟤 粒の大きさ：${food.size || "不明"}
+      </p>
+
+      <p>
+        💰 参考価格：
+        ${
+          food.price
+            ? `¥${food.price.toLocaleString()}（${food.weight || ""}）`
+            : "未登録"
+        }
+      </p>
+
+      ${
+        food.url
+          ? `<p>
+              <a href="${food.url}" target="_blank">
+                公式サイトを見る
+              </a>
+            </p>`
+          : ""
+      }
+    `;
+
+
+    const favoriteButton =
+      card.querySelector(".favorite-button");
+
+    favoriteButton.addEventListener("click", () => {
+
+      toggleFavorite(
+        food.name,
+        favoriteButton
+      );
+
     });
+
+
+    results.appendChild(card);
+  });
+
+});
 
 
     // =========================
