@@ -3378,12 +3378,5 @@
     "price": "未登録",
     "weight": "未登録",
     "url": "https://www.bros-online.jp/product/2093"
-  },
-  {
-    "name": "ソリッドゴールド カッツフラッケン",
-    "animal": "cat",
-    "age": "成猫",
-    "maker": "ソリッドゴールド",
-    "ingredients": [
-      "羊肉",
-      "鶏肉",
+  }
+]
