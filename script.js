@@ -485,68 +485,172 @@ Promise.all([
   // 今食べているフード検索
   // =====================================================
 
-  currentFoodSearch.addEventListener(
-    "input",
-    () => {
+  // =====================================================
+// 今食べているフード検索
+// =====================================================
 
-      const keyword =
-        currentFoodSearch.value
-          .trim()
-          .toLowerCase();
+const currentFoodSearch =
+  document.getElementById("currentFoodSearch");
 
+const foodSuggestions =
+  document.getElementById("foodSuggestions");
 
-      foodSuggestions.innerHTML = "";
+const currentDogButton =
+  document.getElementById("currentDogButton");
 
-
-      if (!keyword) {
-        return;
-      }
-
-
-      const suggestions =
-        foods.filter(food =>
-          food.name
-            .toLowerCase()
-            .includes(keyword)
-        );
+const currentCatButton =
+  document.getElementById("currentCatButton");
 
 
-      if (
-        suggestions.length === 0
-      ) {
-
-        foodSuggestions.innerHTML =
-          "<p>該当するフードがありません。</p>";
-
-        return;
-
-      }
+// 最初は犬用
+let currentFoodAnimal = "dog";
 
 
-      suggestions.forEach(food => {
+// =====================================================
+// 犬・猫ボタン
+// =====================================================
 
-        const button =
-          document.createElement("button");
-
-
-        button.type = "button";
-
-        button.className =
-          "food-suggestion";
-
-        button.textContent =
-          food.name;
+currentDogButton.classList.add(
+  "animal-selected"
+);
 
 
-        button.addEventListener(
-          "click",
-          () => {
+currentDogButton.addEventListener(
+  "click",
+  () => {
 
-            currentFoodSearch.value =
-              food.name;
+    currentFoodAnimal = "dog";
 
-            foodSuggestions.innerHTML =
-              "";
+    currentDogButton.classList.add(
+      "animal-selected"
+    );
+
+    currentCatButton.classList.remove(
+      "animal-selected"
+    );
+
+    // 検索欄をリセット
+    currentFoodSearch.value = "";
+
+    foodSuggestions.innerHTML = "";
+
+    results.innerHTML = "";
+
+  }
+);
+
+
+currentCatButton.addEventListener(
+  "click",
+  () => {
+
+    currentFoodAnimal = "cat";
+
+    currentCatButton.classList.add(
+      "animal-selected"
+    );
+
+    currentDogButton.classList.remove(
+      "animal-selected"
+    );
+
+    // 検索欄をリセット
+    currentFoodSearch.value = "";
+
+    foodSuggestions.innerHTML = "";
+
+    results.innerHTML = "";
+
+  }
+);
+
+
+// =====================================================
+// フード名を検索
+// =====================================================
+
+currentFoodSearch.addEventListener(
+  "input",
+  () => {
+
+    const keyword =
+      currentFoodSearch.value
+        .trim()
+        .toLowerCase();
+
+
+    foodSuggestions.innerHTML = "";
+
+
+    if (!keyword) {
+      return;
+    }
+
+
+    // 選択した犬・猫だけ検索
+    const suggestions =
+      foods.filter(food =>
+
+        food.animal === currentFoodAnimal &&
+
+        food.name
+          .toLowerCase()
+          .includes(keyword)
+
+      );
+
+
+    if (
+      suggestions.length === 0
+    ) {
+
+      foodSuggestions.innerHTML =
+        "<p>該当するフードがありません。</p>";
+
+      return;
+
+    }
+
+
+    suggestions.forEach(food => {
+
+      const button =
+        document.createElement("button");
+
+
+      button.type = "button";
+
+      button.className =
+        "food-suggestion";
+
+      button.textContent =
+        food.name;
+
+
+      button.addEventListener(
+        "click",
+        () => {
+
+          currentFoodSearch.value =
+            food.name;
+
+          foodSuggestions.innerHTML =
+            "";
+
+          showSimilarFoods(food);
+
+        }
+      );
+
+
+      foodSuggestions.appendChild(
+        button
+      );
+
+    });
+
+  }
+);
 
             showSimilarFoods(food);
 
