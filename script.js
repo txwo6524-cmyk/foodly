@@ -1,8 +1,12 @@
 const searchSection = document.getElementById("searchSection");
 
-fetch("foods.json")
-  .then(response => response.json())
-  .then(foods => {
+Promise.all([
+  fetch("dog-food.json").then(response => response.json()),
+  fetch("cat-food.json").then(response => response.json())
+])
+  .then(([dogFoods, catFoods]) => {
+
+    const foods = [...dogFoods, ...catFoods];
 
     
     const results = document.getElementById("results");
