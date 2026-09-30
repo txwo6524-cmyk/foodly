@@ -220,22 +220,42 @@ currentFoodSearch.addEventListener("input", () => {
         return false;
       }
 
-      // 共通原材料
-      const commonIngredients =
-        food.ingredients.filter(ingredient =>
-          selectedFood.ingredients.includes(ingredient)
-        );
+      // 実際の原材料を「、」で分割
+const selectedActualIngredients =
+  selectedFood.actualIngredients
+    ? selectedFood.actualIngredients.split("、").map(i => i.trim())
+    : [];
 
-      // 共通原材料が1つもないものは除外
-      return commonIngredients.length > 0;
-    })
+const foodActualIngredients =
+  food.actualIngredients
+    ? food.actualIngredients.split("、").map(i => i.trim())
+    : [];
+
+// 実際の原材料で共通しているものを探す
+const commonIngredients =
+  foodActualIngredients.filter(ingredient =>
+    selectedActualIngredients.includes(ingredient)
+  );
+
+// 共通原材料が1つもないものは除外
+return commonIngredients.length > 0;
 
     .map(food => {
 
-      const commonIngredients =
-        food.ingredients.filter(ingredient =>
-          selectedFood.ingredients.includes(ingredient)
-        );
+      const selectedActualIngredients =
+  selectedFood.actualIngredients
+    ? selectedFood.actualIngredients.split("、").map(i => i.trim())
+    : [];
+
+const foodActualIngredients =
+  food.actualIngredients
+    ? food.actualIngredients.split("、").map(i => i.trim())
+    : [];
+
+const commonIngredients =
+  foodActualIngredients.filter(ingredient =>
+    selectedActualIngredients.includes(ingredient)
+  );
 
       // =========================
       // 似ている度を計算
