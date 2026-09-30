@@ -215,6 +215,12 @@ currentFoodSearch.addEventListener("input", () => {
     .filter(food => {
 
       // 自分自身は除外
+      function showSimilarFoods(selectedFood) {
+
+  const similarFoods = foods
+    .filter(food => {
+
+      // 自分自身は除外
       if (food.name === selectedFood.name) {
         return false;
       }
@@ -224,47 +230,54 @@ currentFoodSearch.addEventListener("input", () => {
         return false;
       }
 
-      // 実際の原材料を「、」で分割
-const selectedActualIngredients =
-  selectedFood.actualIngredients
-    ? selectedFood.actualIngredients.split("、").map(i => i.trim())
-    : [];
+      // 実際の原材料を分割
+      const selectedActualIngredients =
+        selectedFood.actualIngredients
+          ? selectedFood.actualIngredients
+              .split("、")
+              .map(i => i.trim())
+          : [];
 
-const foodActualIngredients =
-  food.actualIngredients
-    ? food.actualIngredients.split("、").map(i => i.trim())
-    : [];
+      const foodActualIngredients =
+        food.actualIngredients
+          ? food.actualIngredients
+              .split("、")
+              .map(i => i.trim())
+          : [];
 
-// 実際の原材料で共通しているものを探す
-const commonIngredients =
-  foodActualIngredients.filter(ingredient =>
-    selectedActualIngredients.includes(ingredient)
-  );
+      // 実際の原材料で共通点を探す
+      const commonIngredients =
+        foodActualIngredients.filter(ingredient =>
+          selectedActualIngredients.includes(ingredient)
+        );
 
-// 共通原材料が1つもないものは除外
-return commonIngredients.length > 0;
+      // 共通原材料がなければ除外
+      return commonIngredients.length > 0;
+
+    })
 
     .map(food => {
 
       const selectedActualIngredients =
-  selectedFood.actualIngredients
-    ? selectedFood.actualIngredients.split("、").map(i => i.trim())
-    : [];
+        selectedFood.actualIngredients
+          ? selectedFood.actualIngredients
+              .split("、")
+              .map(i => i.trim())
+          : [];
 
-const foodActualIngredients =
-  food.actualIngredients
-    ? food.actualIngredients.split("、").map(i => i.trim())
-    : [];
+      const foodActualIngredients =
+        food.actualIngredients
+          ? food.actualIngredients
+              .split("、")
+              .map(i => i.trim())
+          : [];
 
-const commonIngredients =
-  foodActualIngredients.filter(ingredient =>
-    selectedActualIngredients.includes(ingredient)
-  );
+      const commonIngredients =
+        foodActualIngredients.filter(ingredient =>
+          selectedActualIngredients.includes(ingredient)
+        );
 
-      // =========================
-      // 似ている度を計算
-      // =========================
-
+      // 似ている度
       let score = commonIngredients.length * 10;
 
       // 年齢が同じなら加点
@@ -292,7 +305,6 @@ const commonIngredients =
           score += 5;
         }
 
-        // 全犬種はどのサイズにも対応するので少し加点
         if (food.sizeCategory === "全犬種") {
           score += 2;
         }
@@ -303,6 +315,7 @@ const commonIngredients =
         commonIngredients,
         score
       };
+
     })
 
     // 似ている度の高い順
