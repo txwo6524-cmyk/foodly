@@ -75,9 +75,7 @@ Promise.all([
 
 
   function isFavorite(foodName) {
-
     return favorites.includes(foodName);
-
   }
 
 
@@ -85,7 +83,6 @@ Promise.all([
 
     const index =
       favorites.indexOf(foodName);
-
 
     if (index === -1) {
 
@@ -105,17 +102,15 @@ Promise.all([
 
     }
 
-
     localStorage.setItem(
       "favorites",
       JSON.stringify(favorites)
     );
-
   }
 
 
   // =====================================================
-  // フードカードを作る
+  // フードカード
   // =====================================================
 
   function createFoodCard(food) {
@@ -214,98 +209,104 @@ Promise.all([
 
 
     return card;
-
   }
 
 
   // =====================================================
-  // 犬・猫切り替え
+  // 通常の犬・猫切り替え
   // =====================================================
 
   let selectedAnimal = "dog";
 
 
-  dogButton.classList.add(
-    "animal-selected"
-  );
+  if (dogButton && catButton) {
 
-  dogSizeFilter.style.display = "block";
+    dogButton.classList.add(
+      "animal-selected"
+    );
 
 
-  dogButton.addEventListener(
-    "click",
-    () => {
-
-      selectedAnimal = "dog";
-
-      dogButton.classList.add(
-        "animal-selected"
-      );
-
-      catButton.classList.remove(
-        "animal-selected"
-      );
-
-      dogSizeFilter.style.display =
-        "block";
-
-      runSearch();
-
+    if (dogSizeFilter) {
+      dogSizeFilter.style.display = "block";
     }
-  );
 
 
-  catButton.addEventListener(
-    "click",
-    () => {
+    dogButton.addEventListener(
+      "click",
+      () => {
 
-      selectedAnimal = "cat";
+        selectedAnimal = "dog";
 
-      catButton.classList.add(
-        "animal-selected"
-      );
+        dogButton.classList.add(
+          "animal-selected"
+        );
 
-      dogButton.classList.remove(
-        "animal-selected"
-      );
+        catButton.classList.remove(
+          "animal-selected"
+        );
 
-      dogSizeFilter.style.display =
-        "none";
+        if (dogSizeFilter) {
+          dogSizeFilter.style.display = "block";
+        }
 
-
-      // 犬サイズのチェックを解除
-      document
-        .querySelectorAll(
-          'input[name="size"]'
-        )
-        .forEach(checkbox => {
-
-          checkbox.checked = false;
-
-        });
+        runSearch();
+      }
+    );
 
 
-      runSearch();
+    catButton.addEventListener(
+      "click",
+      () => {
 
-    }
-  );
+        selectedAnimal = "cat";
+
+        catButton.classList.add(
+          "animal-selected"
+        );
+
+        dogButton.classList.remove(
+          "animal-selected"
+        );
+
+        if (dogSizeFilter) {
+          dogSizeFilter.style.display = "none";
+        }
+
+
+        // 犬サイズのチェックを解除
+        document
+          .querySelectorAll('input[name="size"]')
+          .forEach(checkbox => {
+            checkbox.checked = false;
+          });
+
+
+        runSearch();
+      }
+    );
+
+  }
 
 
   // =====================================================
-  // 避けたい原材料・年齢・サイズ検索
+  // 通常検索
   // =====================================================
 
-  ingredientSearchButton.addEventListener(
-    "click",
-    runSearch
-  );
+  if (ingredientSearchButton) {
+
+    ingredientSearchButton.addEventListener(
+      "click",
+      runSearch
+    );
+
+  }
 
 
   function runSearch() {
 
-    // -------------------------------------------------
+    // ---------------------------------------------------
     // 避けたい原材料
-    // -------------------------------------------------
+    // ---------------------------------------------------
 
     const ingredientCheckboxes =
       document.querySelectorAll(
@@ -321,9 +322,9 @@ Promise.all([
       );
 
 
-    // -------------------------------------------------
+    // ---------------------------------------------------
     // 年齢
-    // -------------------------------------------------
+    // ---------------------------------------------------
 
     const ageCheckboxes =
       document.querySelectorAll(
@@ -339,9 +340,9 @@ Promise.all([
       );
 
 
-    // -------------------------------------------------
+    // ---------------------------------------------------
     // サイズ
-    // -------------------------------------------------
+    // ---------------------------------------------------
 
     const sizeCheckboxes =
       document.querySelectorAll(
@@ -357,13 +358,12 @@ Promise.all([
       );
 
 
-    // -------------------------------------------------
+    // ---------------------------------------------------
     // フードを絞り込む
-    // -------------------------------------------------
+    // ---------------------------------------------------
 
     const filteredFoods =
       foods.filter(food => {
-
 
         // 犬・猫
         if (
@@ -373,10 +373,9 @@ Promise.all([
         }
 
 
-        // -------------------------------------------------
+        // ------------------------------------------------
         // 避けたい原材料
-        // 「ingredients」の統一済みデータを使用
-        // -------------------------------------------------
+        // ------------------------------------------------
 
         const hasAvoidedIngredient =
           (food.ingredients || []).some(
@@ -392,9 +391,9 @@ Promise.all([
         }
 
 
-        // -------------------------------------------------
+        // ------------------------------------------------
         // 年齢
-        // -------------------------------------------------
+        // ------------------------------------------------
 
         if (
           selectedAges.length > 0
@@ -414,9 +413,9 @@ Promise.all([
         }
 
 
-        // -------------------------------------------------
+        // ------------------------------------------------
         // 犬のサイズ
-        // -------------------------------------------------
+        // ------------------------------------------------
 
         if (
           selectedAnimal === "dog" &&
@@ -442,9 +441,14 @@ Promise.all([
       });
 
 
-    // =====================================================
-    // 検索結果表示
-    // =====================================================
+    // ===================================================
+    // 結果表示
+    // ===================================================
+
+    if (!searchResults) {
+      return;
+    }
+
 
     searchResults.innerHTML = "";
 
@@ -452,10 +456,14 @@ Promise.all([
     const title =
       document.createElement("h2");
 
+
     title.textContent =
       `検索結果（${filteredFoods.length}件）`;
 
-    searchResults.appendChild(title);
+
+    searchResults.appendChild(
+      title
+    );
 
 
     if (
@@ -481,186 +489,178 @@ Promise.all([
   }
 
 
-  
   // =====================================================
-// 今食べているフード検索
-// =====================================================
+  // 今食べているフード
+  // =====================================================
 
-const currentFoodSearch =
-  document.getElementById("currentFoodSearch");
-
-const foodSuggestions =
-  document.getElementById("foodSuggestions");
-
-const currentDogButton =
-  document.getElementById("currentDogButton");
-
-const currentCatButton =
-  document.getElementById("currentCatButton");
+  let currentFoodAnimal = "dog";
 
 
-// 最初は犬用
-let currentFoodAnimal = "dog";
+  // -----------------------------------------------------
+  // 犬・猫ボタンを取得
+  // -----------------------------------------------------
+
+  let currentDogButton =
+    document.getElementById(
+      "currentDogButton"
+    );
+
+  let currentCatButton =
+    document.getElementById(
+      "currentCatButton"
+    );
 
 
-// =====================================================
-// 犬・猫ボタン
-// =====================================================
+  // =====================================================
+  // ボタンがHTMLに存在しない場合は自動作成
+  // =====================================================
 
-currentDogButton.classList.add(
-  "animal-selected"
-);
+  if (
+    currentFoodSearch &&
+    (
+      !currentDogButton ||
+      !currentCatButton
+    )
+  ) {
+
+    const switchArea =
+      document.createElement("div");
 
 
-currentDogButton.addEventListener(
-  "click",
-  () => {
+    switchArea.className =
+      "current-food-animal-switch";
 
-    currentFoodAnimal = "dog";
+
+    switchArea.innerHTML = `
+      <button
+        type="button"
+        id="currentDogButton"
+      >
+        🐶 犬用
+      </button>
+
+      <button
+        type="button"
+        id="currentCatButton"
+      >
+        🐱 猫用
+      </button>
+    `;
+
+
+    currentFoodSearch.parentElement.insertBefore(
+      switchArea,
+      currentFoodSearch
+    );
+
+
+    currentDogButton =
+      document.getElementById(
+        "currentDogButton"
+      );
+
+    currentCatButton =
+      document.getElementById(
+        "currentCatButton"
+      );
+
+  }
+
+
+  // =====================================================
+  // 今食べているフード 犬・猫切り替え
+  // =====================================================
+
+  if (
+    currentDogButton &&
+    currentCatButton
+  ) {
 
     currentDogButton.classList.add(
       "animal-selected"
     );
 
-    currentCatButton.classList.remove(
-      "animal-selected"
-    );
 
-    // 検索欄をリセット
-    currentFoodSearch.value = "";
+    currentDogButton.addEventListener(
+      "click",
+      () => {
 
-    foodSuggestions.innerHTML = "";
-
-    results.innerHTML = "";
-
-  }
-);
+        currentFoodAnimal = "dog";
 
 
-currentCatButton.addEventListener(
-  "click",
-  () => {
+        currentDogButton.classList.add(
+          "animal-selected"
+        );
 
-    currentFoodAnimal = "cat";
-
-    currentCatButton.classList.add(
-      "animal-selected"
-    );
-
-    currentDogButton.classList.remove(
-      "animal-selected"
-    );
-
-    // 検索欄をリセット
-    currentFoodSearch.value = "";
-
-    foodSuggestions.innerHTML = "";
-
-    results.innerHTML = "";
-
-  }
-);
+        currentCatButton.classList.remove(
+          "animal-selected"
+        );
 
 
-// =====================================================
-// フード名を検索
-// =====================================================
-
-currentFoodSearch.addEventListener(
-  "input",
-  () => {
-
-    const keyword =
-      currentFoodSearch.value
-        .trim()
-        .toLowerCase();
-
-
-    foodSuggestions.innerHTML = "";
-
-
-    if (!keyword) {
-      return;
-    }
-
-
-    // 選択した犬・猫だけ検索
-    const suggestions =
-      foods.filter(food =>
-
-        food.animal === currentFoodAnimal &&
-
-        food.name
-          .toLowerCase()
-          .includes(keyword)
-
-      );
-
-
-    if (
-      suggestions.length === 0
-    ) {
-
-      foodSuggestions.innerHTML =
-        "<p>該当するフードがありません。</p>";
-
-      return;
-
-    }
-
-
-    suggestions.forEach(food => {
-
-      const button =
-        document.createElement("button");
-
-
-      button.type = "button";
-
-      button.className =
-        "food-suggestion";
-
-      button.textContent =
-        food.name;
-
-
-      button.addEventListener(
-        "click",
-        () => {
-
-          currentFoodSearch.value =
-            food.name;
-
-          foodSuggestions.innerHTML =
-            "";
-
-          showSimilarFoods(food);
-
+        // 検索欄リセット
+        if (currentFoodSearch) {
+          currentFoodSearch.value = "";
         }
-      );
 
 
-      foodSuggestions.appendChild(
-        button
-      );
+        if (foodSuggestions) {
+          foodSuggestions.innerHTML = "";
+        }
 
-    });
+
+        if (results) {
+          results.innerHTML = "";
+        }
+
+      }
+    );
+
+
+    currentCatButton.addEventListener(
+      "click",
+      () => {
+
+        currentFoodAnimal = "cat";
+
+
+        currentCatButton.classList.add(
+          "animal-selected"
+        );
+
+        currentDogButton.classList.remove(
+          "animal-selected"
+        );
+
+
+        // 検索欄リセット
+        if (currentFoodSearch) {
+          currentFoodSearch.value = "";
+        }
+
+
+        if (foodSuggestions) {
+          foodSuggestions.innerHTML = "";
+        }
+
+
+        if (results) {
+          results.innerHTML = "";
+        }
+
+      }
+    );
 
   }
-);
 
-            
-
-
-      
 
   // =====================================================
-  // 実際の原材料を分割する関数
+  // 実際の原材料を分割
   // =====================================================
 
   function getActualIngredients(food) {
 
     if (
+      !food ||
       !food.actualIngredients
     ) {
       return [];
@@ -668,11 +668,16 @@ currentFoodSearch.addEventListener(
 
 
     return food.actualIngredients
-      .split("、")
+
+      // 日本語の「、」だけでなく
+      // 「，」「,」にも対応
+      .split(/[、，,]/)
+
       .map(
         ingredient =>
           ingredient.trim()
       )
+
       .filter(
         ingredient =>
           ingredient.length > 0
@@ -682,8 +687,119 @@ currentFoodSearch.addEventListener(
 
 
   // =====================================================
+  // 今食べているフード名検索
+  // =====================================================
+
+  if (currentFoodSearch) {
+
+    currentFoodSearch.addEventListener(
+      "input",
+      () => {
+
+        const keyword =
+          currentFoodSearch.value
+            .trim()
+            .toLowerCase();
+
+
+        if (foodSuggestions) {
+          foodSuggestions.innerHTML = "";
+        }
+
+
+        if (!keyword) {
+          return;
+        }
+
+
+        // 選択中の犬・猫だけ検索
+        const suggestions =
+          foods.filter(food =>
+
+            food.animal ===
+              currentFoodAnimal &&
+
+            food.name
+              .toLowerCase()
+              .includes(keyword)
+
+          );
+
+
+        if (
+          suggestions.length === 0
+        ) {
+
+          if (foodSuggestions) {
+
+            foodSuggestions.innerHTML =
+              "<p>該当するフードがありません。</p>";
+
+          }
+
+          return;
+
+        }
+
+
+        suggestions.forEach(
+          food => {
+
+            const button =
+              document.createElement(
+                "button"
+              );
+
+
+            button.type = "button";
+
+            button.className =
+              "food-suggestion";
+
+            button.textContent =
+              food.name;
+
+
+            button.addEventListener(
+              "click",
+              () => {
+
+                currentFoodSearch.value =
+                  food.name;
+
+
+                if (foodSuggestions) {
+                  foodSuggestions.innerHTML = "";
+                }
+
+
+                showSimilarFoods(
+                  food
+                );
+
+              }
+            );
+
+
+            if (foodSuggestions) {
+
+              foodSuggestions.appendChild(
+                button
+              );
+
+            }
+
+          }
+        );
+
+      }
+    );
+
+  }
+
+
+  // =====================================================
   // 似ているフード検索
-  // 実際の原材料 actualIngredients を使用
   // =====================================================
 
   function showSimilarFoods(
@@ -700,7 +816,6 @@ currentFoodSearch.addEventListener(
       foods
 
         .filter(food => {
-
 
           // 自分自身は除外
           if (
@@ -726,10 +841,7 @@ currentFoodSearch.addEventListener(
             );
 
 
-          // -------------------------------------------------
           // 実際の原材料で共通点を探す
-          // -------------------------------------------------
-
           const commonIngredients =
             foodIngredients.filter(
               ingredient =>
@@ -739,7 +851,7 @@ currentFoodSearch.addEventListener(
             );
 
 
-          // 共通原材料なしなら除外
+          // 共通原材料なしは除外
           return (
             commonIngredients.length > 0
           );
@@ -764,15 +876,15 @@ currentFoodSearch.addEventListener(
             );
 
 
-          // -------------------------------------------------
+          // ------------------------------------------------
           // 似ている度
-          // -------------------------------------------------
+          // ------------------------------------------------
 
           let score =
             commonIngredients.length * 10;
 
 
-          // 年齢一致
+          // 年齢が同じ
           if (
             selectedFood.age &&
             food.age &&
@@ -795,7 +907,7 @@ currentFoodSearch.addEventListener(
           }
 
 
-          // 犬のサイズ一致
+          // 犬の場合はサイズも考慮
           if (
             selectedFood.animal === "dog"
           ) {
@@ -838,15 +950,21 @@ currentFoodSearch.addEventListener(
         })
 
 
+        // 似ている順
         .sort(
           (a, b) =>
             b.score - a.score
         );
 
 
-    // =====================================================
-    // 似ているフード結果表示
-    // =====================================================
+    // ===================================================
+    // 結果表示
+    // ===================================================
+
+    if (!results) {
+      return;
+    }
+
 
     results.innerHTML = "";
 
@@ -854,10 +972,14 @@ currentFoodSearch.addEventListener(
     const title =
       document.createElement("h2");
 
+
     title.textContent =
       "似ているフード";
 
-    results.appendChild(title);
+
+    results.appendChild(
+      title
+    );
 
 
     if (
@@ -872,39 +994,56 @@ currentFoodSearch.addEventListener(
     }
 
 
-    similarFoods.forEach(item => {
+    similarFoods.forEach(
+      item => {
 
-      const food =
-        item.food;
-
-
-      const card =
-        createFoodCard(food);
+        const food =
+          item.food;
 
 
-      // 共通原材料を追加
-      const common =
-        document.createElement("p");
+        const card =
+          createFoodCard(
+            food
+          );
 
 
-      common.innerHTML =
-        `
-        🔗 共通する原材料：
-        ${item.commonIngredients.join("・")}
+        // ------------------------------------------------
+        // 共通原材料
+        // ------------------------------------------------
+
+        const common =
+          document.createElement(
+            "p"
+          );
+
+
+        common.innerHTML = `
+          🔗 共通する原材料：
+          ${item.commonIngredients.join("・")}
         `;
 
 
-      // フード名の下あたりに追加
-      const foodName =
-        card.querySelector("h3");
+        const foodName =
+          card.querySelector(
+            "h3"
+          );
 
 
-      foodName.after(common);
+        if (foodName) {
+
+          foodName.after(
+            common
+          );
+
+        }
 
 
-      results.appendChild(card);
+        results.appendChild(
+          card
+        );
 
-    });
+      }
+    );
 
   }
 
@@ -913,108 +1052,146 @@ currentFoodSearch.addEventListener(
   // お気に入り表示
   // =====================================================
 
-  favoritesButton.addEventListener(
-    "click",
-    () => {
+  if (favoritesButton) {
+
+    favoritesButton.addEventListener(
+      "click",
+      () => {
+
+        if (
+          searchSection &&
+          searchSection.style.display ===
+            "none"
+        ) {
+
+          searchSection.style.display =
+            "block";
+
+          if (favoritesResults) {
+            favoritesResults.style.display =
+              "none";
+          }
+
+          return;
+
+        }
 
 
-      if (
-        searchSection.style.display ===
-        "none"
-      ) {
-
-        searchSection.style.display =
-          "block";
-
-        favoritesResults.style.display =
-          "none";
-
-        return;
-
-      }
+        if (searchSection) {
+          searchSection.style.display =
+            "none";
+        }
 
 
-      searchSection.style.display =
-        "none";
+        if (favoritesResults) {
 
-      favoritesResults.style.display =
-        "block";
-
-
-      favoritesResults.innerHTML =
-        "";
+          favoritesResults.style.display =
+            "block";
 
 
-      const title =
-        document.createElement("h2");
-
-      title.textContent =
-        "お気に入り";
-
-      favoritesResults.appendChild(
-        title
-      );
+          favoritesResults.innerHTML =
+            "";
 
 
-      const favoriteFoods =
-        foods.filter(food =>
-          favorites.includes(
-            food.name
-          )
-        );
+          const title =
+            document.createElement(
+              "h2"
+            );
 
 
-      if (
-        favoriteFoods.length === 0
-      ) {
-
-        favoritesResults.innerHTML +=
-          "<p>お気に入りはまだありません。</p>";
-
-        return;
-
-      }
+          title.textContent =
+            "お気に入り";
 
 
-      favoriteFoods.forEach(food => {
-
-        const card =
-          createFoodCard(food);
-
-
-        const button =
-          card.querySelector(
-            ".favorite-button"
+          favoritesResults.appendChild(
+            title
           );
 
 
-        button.addEventListener(
-          "click",
-          () => {
+          const favoriteFoods =
+            foods.filter(food =>
+              favorites.includes(
+                food.name
+              )
+            );
 
-            card.remove();
+
+          if (
+            favoriteFoods.length === 0
+          ) {
+
+            favoritesResults.innerHTML +=
+              "<p>お気に入りはまだありません。</p>";
+
+            return;
 
           }
-        );
 
 
-        favoritesResults.appendChild(
-          card
-        );
+          favoriteFoods.forEach(
+            food => {
 
-      });
+              const card =
+                createFoodCard(
+                  food
+                );
 
-    }
-  );
+
+              const button =
+                card.querySelector(
+                  ".favorite-button"
+                );
+
+
+              // お気に入りから外したら
+              // カードも消す
+              if (button) {
+
+                button.addEventListener(
+                  "click",
+                  () => {
+
+                    if (
+                      !isFavorite(
+                        food.name
+                      )
+                    ) {
+
+                      card.remove();
+
+                    }
+
+                  }
+                );
+
+              }
+
+
+              favoritesResults.appendChild(
+                card
+              );
+
+            }
+          );
+
+        }
+
+      }
+    );
+
+  }
 
 
   // =====================================================
   // 初期状態
   // =====================================================
 
-  dogSizeFilter.style.display =
-    "block";
+  if (dogSizeFilter) {
 
+    dogSizeFilter.style.display =
+      "block";
+
+  }
 
 })
 
