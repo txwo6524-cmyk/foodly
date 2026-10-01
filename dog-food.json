@@ -2979,7 +2979,7 @@
     "age": "成犬",
     "sizeCategory": "全サイズ",
     "maker": "ニュートロ",
-    "size": "魚,じゃがいも,レンズ豆,ひよこ豆,さつまいも,ひまわり油,なたね油,ビートパルプ,亜麻仁",
+    "size": "普通",
     "price": 2566,
     "weight": "1kg",
     "url": "https://store.nutro.jp/products/nc_d_adult_fish_potato"
@@ -2999,7 +2999,7 @@
     "age": "成犬",
     "sizeCategory": "大型",
     "maker": "ネルソンズ",
-    "size": "鶏肉,さつまいも,トマト,にんじん,かぼちゃ,貝,りんご,クランベリー",
+    "size": "普通",
     "price": 17877,
     "weight": "10kg",
     "url": "https://www.nelsonsdogfood.jp/cart"
@@ -3015,7 +3015,7 @@
     "age": "全年齢",
     "sizeCategory": "全サイズ",
     "maker": "森乳サンワールド",
-    "size": "じゃがいも,魚,トマト",
+    "size": "普通",
     "price": null,
     "weight": "800g",
     "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-puppy-adult/"
@@ -3031,7 +3031,7 @@
     "age": "成犬",
     "sizeCategory": "全サイズ",
     "maker": "森乳サンワールド",
-    "size": "じゃがいも,魚,トマト,ビートパルプ",
+    "size": "普通",
     "price": null,
     "weight": "800g",
     "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-weight-maintenance/"
@@ -3050,7 +3050,7 @@
     "age": "成犬",
     "sizeCategory": "全サイズ",
     "maker": "森乳サンワールド",
-    "size": "じゃがいも,魚,エンドウ豆,トマト,ビートパルプ,貝,クランベリー",
+    "size": "普通",
     "price": null,
     "weight": "800g",
     "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potatoplus/"
@@ -3067,7 +3067,7 @@
     "age": "シニア",
     "sizeCategory": "全サイズ",
     "maker": "森乳サンワールド",
-    "size": "じゃがいも,魚,トマト,ビートパルプ",
+    "size": "普通",
     "price": null,
     "weight": "800g",
     "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potato-senior/"
@@ -3086,7 +3086,7 @@
     "age": "成犬・シニア",
     "sizeCategory": "全サイズ",
     "maker": "森乳サンワールド",
-    "size": "じゃがいも,魚,エンドウ豆,トマト,ビートパルプ,貝,クランベリー",
+    "size": "普通",
     "price": null,
     "weight": "800g",
     "url": "https://www.morinyu-pet.com/products/dog/aller-lab-fish-potatoplus-light/"
@@ -3109,7 +3109,7 @@
     "age": "成犬",
     "sizeCategory": "全サイズ",
     "maker": "ロータス",
-    "size": "魚,じゃがいも,エンドウ豆,卵,大豆,さつまいも,亜麻仁,オリーブ油,にんじん,りんご,ほうれん草,かぼちゃ,ブルーベリー",
+    "size": "普通",
     "price": 3960,
     "weight": "800g",
     "url": "https://www.lotusjapan.net/gffish.htm"
@@ -3127,7 +3127,7 @@
     "age": "全年齢",
     "sizeCategory": "小型",
     "maker": "コノコトトモニ",
-    "size": "鶏肉,大麦,玄米,魚,米油,エンドウ豆,かぼちゃ,りんご,さつまいも,昆布",
+    "size": "普通,
     "price": 3278,
     "weight": "1kg",
     "url": "https://shop.konokototomoni.com/lp?u=kg_047_seo_douga_001"
