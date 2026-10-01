@@ -755,38 +755,38 @@ Promise.all([
 
 
   // =====================================================
-  // ★ 比較用の原材料を取得
-  //
-  // ingredients =
-  // 検索用に統一した原材料
-  //
-  // actualIngredients =
-  // 実際の原材料表示
-  //
-  // 比較では ingredients だけを使う
+  // 比較用の原材料を取得
+  // ingredients = 検索用に統一した原材料
   // =====================================================
 
   function getSearchIngredients(food) {
 
-    if (
-      !food ||
-      !Array.isArray(food.ingredients)
-    ) {
-
+    if (!food) {
       return [];
+    }
+
+    let ingredients = food.ingredients;
+
+    // 配列の場合
+    if (Array.isArray(ingredients)) {
+
+      return ingredients
+        .map(ingredient => String(ingredient).trim())
+        .filter(ingredient => ingredient !== "");
 
     }
 
+    // 文字列の場合にも対応
+    if (typeof ingredients === "string") {
 
-    return food.ingredients
-      .map(
-        ingredient =>
-          String(ingredient).trim()
-      )
-      .filter(
-        ingredient =>
-          ingredient.length > 0
-      );
+      return ingredients
+        .split(/[、，,]/)
+        .map(ingredient => ingredient.trim())
+        .filter(ingredient => ingredient !== "");
+
+    }
+
+    return [];
 
   }
 
@@ -806,114 +806,76 @@ Promise.all([
             .trim()
             .toLowerCase();
 
-
         if (foodSuggestions) {
-
           foodSuggestions.innerHTML = "";
-
         }
-
 
         if (!keyword) {
-
           return;
-
         }
-
 
         const suggestions =
           foods.filter(food => {
 
             if (
-              food.animal !==
-              currentFoodAnimal
+              food.animal !== currentFoodAnimal
             ) {
-
               return false;
-
             }
 
-
             const name =
-              String(
-                food.name || ""
-              ).toLowerCase();
-
+              String(food.name || "")
+                .toLowerCase();
 
             return name.includes(keyword);
 
           });
 
-
-        if (
-          suggestions.length === 0
-        ) {
+        if (suggestions.length === 0) {
 
           if (foodSuggestions) {
-
             foodSuggestions.innerHTML =
               "<p>該当するフードがありません。</p>";
-
           }
 
           return;
 
         }
 
+        suggestions.forEach(food => {
 
-        suggestions.forEach(
-          food => {
+          const button =
+            document.createElement("button");
 
-            const button =
-              document.createElement(
-                "button"
-              );
+          button.type = "button";
 
+          button.className =
+            "food-suggestion";
 
-            button.type = "button";
+          button.textContent =
+            food.name;
 
+          button.addEventListener(
+            "click",
+            () => {
 
-            button.className =
-              "food-suggestion";
+              currentFoodSearch.value =
+                food.name;
 
-
-            button.textContent =
-              food.name;
-
-
-            button.addEventListener(
-              "click",
-              () => {
-
-                currentFoodSearch.value =
-                  food.name;
-
-
-                if (foodSuggestions) {
-
-                  foodSuggestions.innerHTML = "";
-
-                }
-
-
-                showSimilarFoods(
-                  food
-                );
-
+              if (foodSuggestions) {
+                foodSuggestions.innerHTML = "";
               }
-            );
 
-
-            if (foodSuggestions) {
-
-              foodSuggestions.appendChild(
-                button
-              );
+              showSimilarFoods(food);
 
             }
+          );
 
+          if (foodSuggestions) {
+            foodSuggestions.appendChild(button);
           }
-        );
+
+        });
 
       }
     );
@@ -922,70 +884,47 @@ Promise.all([
 
 
   // =====================================================
-  // ★ 共通原材料で比較
+  // 似ているフード検索
   // =====================================================
 
-  function showSimilarFoods(
-    selectedFood
-  ) {
+  function showSimilarFoods(selectedFood) {
 
-    // ---------------------------------------------------
     // 選択したフードの「検索用原材料」
-    // ---------------------------------------------------
-
     const selectedIngredients =
-      getSearchIngredients(
-        selectedFood
-      );
+      getSearchIngredients(selectedFood);
 
 
     console.log(
-      "比較対象:",
-      selectedFood.name
-    );
-
-    console.log(
-      "選択フードの検索用原材料:",
+      "比較元:",
+      selectedFood.name,
       selectedIngredients
     );
 
 
     // ---------------------------------------------------
-    // 共通原材料を持つフードを探す
+    // 共通原材料を調べる
     // ---------------------------------------------------
 
     const similarFoods =
       foods
-
         .filter(food => {
 
-          // 自分自身
+          // 自分自身は除外
           if (
-            food.name ===
-            selectedFood.name
+            food.name === selectedFood.name
           ) {
-
             return false;
-
           }
-
 
           // 犬・猫をまたがない
           if (
-            food.animal !==
-            selectedFood.animal
+            food.animal !== selectedFood.animal
           ) {
-
             return false;
-
           }
 
-
-          // ★ ここも必ず ingredients
           const foodIngredients =
-            getSearchIngredients(
-              food
-            );
+            getSearchIngredients(food);
 
 
           const commonIngredients =
@@ -997,20 +936,15 @@ Promise.all([
             );
 
 
-          return (
-            commonIngredients.length > 0
-          );
+          return commonIngredients.length > 0;
 
         })
 
 
         .map(food => {
 
-          // ★ ここも必ず ingredients
           const foodIngredients =
-            getSearchIngredients(
-              food
-            );
+            getSearchIngredients(food);
 
 
           const commonIngredients =
@@ -1026,39 +960,25 @@ Promise.all([
             commonIngredients.length * 10;
 
 
-          // ------------------------------------------------
           // 年齢
-          // ------------------------------------------------
-
           if (
             selectedFood.age &&
             food.age &&
-            selectedFood.age ===
-              food.age
+            selectedFood.age === food.age
           ) {
-
             score += 5;
-
           }
 
 
-          // ------------------------------------------------
           // 全年齢
-          // ------------------------------------------------
-
           if (
             food.age === "全年齢"
           ) {
-
             score += 2;
-
           }
 
 
-          // ------------------------------------------------
           // 犬サイズ
-          // ------------------------------------------------
-
           if (
             selectedFood.animal === "dog"
           ) {
@@ -1069,30 +989,22 @@ Promise.all([
               selectedFood.sizeCategory ===
                 food.sizeCategory
             ) {
-
               score += 5;
-
             }
 
-
             if (
-              food.sizeCategory ===
-              "全犬種"
+              food.sizeCategory === "全犬種"
             ) {
-
               score += 2;
-
             }
 
           }
 
 
           return {
-
             food,
             commonIngredients,
             score
-
           };
 
         })
@@ -1110,6 +1022,10 @@ Promise.all([
 
     if (!results) {
 
+      console.error(
+        "結果表示用の #results がHTMLにありません"
+      );
+
       return;
 
     }
@@ -1121,14 +1037,10 @@ Promise.all([
     const title =
       document.createElement("h2");
 
-
     title.textContent =
       "似ているフード";
 
-
-    results.appendChild(
-      title
-    );
+    results.appendChild(title);
 
 
     // ---------------------------------------------------
@@ -1139,8 +1051,15 @@ Promise.all([
       similarFoods.length === 0
     ) {
 
-      results.innerHTML +=
-        "<p>共通する原材料を持つフードがありません。</p>";
+      const message =
+        document.createElement("p");
+
+      message.textContent =
+        selectedIngredients.length === 0
+          ? "このフードには比較用の原材料が登録されていません。"
+          : "共通する原材料を持つフードがありません。";
+
+      results.appendChild(message);
 
       return;
 
@@ -1148,63 +1067,45 @@ Promise.all([
 
 
     // ---------------------------------------------------
-    // 比較結果
+    // 結果表示
     // ---------------------------------------------------
 
-    similarFoods.forEach(
-      item => {
+    similarFoods.forEach(item => {
 
-        const food =
-          item.food;
-
-
-        // カードには実際の原材料を表示
-        const card =
-          createFoodCard(
-            food
-          );
+      const food =
+        item.food;
 
 
-        // 比較結果には検索用原材料を表示
-        const common =
-          document.createElement(
-            "p"
-          );
+      const card =
+        createFoodCard(food);
 
 
-        common.innerHTML = `
-          🔗 共通する原材料：
-          ${item.commonIngredients
-            .map(escapeHtml)
-            .join("・")}
-        `;
+      const common =
+        document.createElement("p");
 
 
-        const foodName =
-          card.querySelector(
-            "h3"
-          );
+      common.innerHTML = `
+        🔗 共通する原材料：
+        ${item.commonIngredients
+          .map(escapeHtml)
+          .join("・")}
+      `;
 
 
-        if (foodName) {
-
-          foodName.after(
-            common
-          );
-
-        }
+      const foodName =
+        card.querySelector("h3");
 
 
-        results.appendChild(
-          card
-        );
-
+      if (foodName) {
+        foodName.after(common);
       }
-    );
+
+
+      results.appendChild(card);
+
+    });
 
   }
-
-
   // =====================================================
   // お気に入り
   // =====================================================
