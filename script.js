@@ -12,10 +12,6 @@ Promise.all([
 
 .then(([dogFoods, catFoods]) => {
 
-  // =====================================================
-  // JSON確認
-  // =====================================================
-
   if (!Array.isArray(dogFoods)) {
     throw new Error("dog-food.jsonが配列になっていません");
   }
@@ -79,6 +75,7 @@ Promise.all([
   let favorites = [];
 
   try {
+
     favorites = JSON.parse(
       localStorage.getItem("favorites") || "[]"
     );
@@ -88,7 +85,9 @@ Promise.all([
     }
 
   } catch (error) {
+
     favorites = [];
+
   }
 
 
@@ -381,10 +380,6 @@ Promise.all([
 
   function runSearch() {
 
-    // ---------------------------------------------------
-    // 避けたい原材料
-    // ---------------------------------------------------
-
     const ingredientCheckboxes =
       document.querySelectorAll(
         '.ingredient-category input[type="checkbox"]:checked'
@@ -399,9 +394,9 @@ Promise.all([
       );
 
 
-    // ---------------------------------------------------
+    // ===================================================
     // 年齢
-    // ---------------------------------------------------
+    // ===================================================
 
     const ageCheckboxes =
       document.querySelectorAll(
@@ -417,9 +412,9 @@ Promise.all([
       );
 
 
-    // ---------------------------------------------------
+    // ===================================================
     // 犬サイズ
-    // ---------------------------------------------------
+    // ===================================================
 
     const sizeCheckboxes =
       document.querySelectorAll(
@@ -435,23 +430,25 @@ Promise.all([
       );
 
 
-    // ---------------------------------------------------
+    // ===================================================
     // 絞り込み
-    // ---------------------------------------------------
+    // ===================================================
 
     const filteredFoods =
       foods.filter(food => {
 
-        // 犬・猫
         if (
           food.animal !== selectedAnimal
         ) {
+
           return false;
+
         }
 
 
         // ------------------------------------------------
         // 避けたい原材料
+        // 検索用に統一した ingredients を使用
         // ------------------------------------------------
 
         const ingredients =
@@ -464,13 +461,15 @@ Promise.all([
           ingredients.some(
             ingredient =>
               avoidedIngredients.includes(
-                ingredient
+                String(ingredient).trim()
               )
           );
 
 
         if (hasAvoidedIngredient) {
+
           return false;
+
         }
 
 
@@ -488,7 +487,9 @@ Promise.all([
 
 
           if (!ageMatch) {
+
             return false;
+
           }
 
         }
@@ -511,7 +512,9 @@ Promise.all([
 
 
           if (!sizeMatch) {
+
             return false;
+
           }
 
         }
@@ -527,7 +530,9 @@ Promise.all([
     // ===================================================
 
     if (!searchResults) {
+
       return;
+
     }
 
 
@@ -683,17 +688,23 @@ Promise.all([
 
 
         if (currentFoodSearch) {
+
           currentFoodSearch.value = "";
+
         }
 
 
         if (foodSuggestions) {
+
           foodSuggestions.innerHTML = "";
+
         }
 
 
         if (results) {
+
           results.innerHTML = "";
+
         }
 
       }
@@ -718,17 +729,23 @@ Promise.all([
 
 
         if (currentFoodSearch) {
+
           currentFoodSearch.value = "";
+
         }
 
 
         if (foodSuggestions) {
+
           foodSuggestions.innerHTML = "";
+
         }
 
 
         if (results) {
+
           results.innerHTML = "";
+
         }
 
       }
@@ -738,24 +755,40 @@ Promise.all([
 
 
   // =====================================================
-// 比較用の原材料を取得
-// ingredients = 検索用に統一した原材料
-// =====================================================
+  // ★ 比較用の原材料を取得
+  //
+  // ingredients =
+  // 検索用に統一した原材料
+  //
+  // actualIngredients =
+  // 実際の原材料表示
+  //
+  // 比較では ingredients だけを使う
+  // =====================================================
 
-function getSearchIngredients(food) {
+  function getSearchIngredients(food) {
 
-  if (
-    !food ||
-    !Array.isArray(food.ingredients)
-  ) {
-    return [];
+    if (
+      !food ||
+      !Array.isArray(food.ingredients)
+    ) {
+
+      return [];
+
+    }
+
+
+    return food.ingredients
+      .map(
+        ingredient =>
+          String(ingredient).trim()
+      )
+      .filter(
+        ingredient =>
+          ingredient.length > 0
+      );
+
   }
-
-  return food.ingredients
-    .map(ingredient => String(ingredient).trim())
-    .filter(ingredient => ingredient.length > 0);
-
-}
 
 
   // =====================================================
@@ -775,12 +808,16 @@ function getSearchIngredients(food) {
 
 
         if (foodSuggestions) {
+
           foodSuggestions.innerHTML = "";
+
         }
 
 
         if (!keyword) {
+
           return;
+
         }
 
 
@@ -853,7 +890,9 @@ function getSearchIngredients(food) {
 
 
                 if (foodSuggestions) {
+
                   foodSuggestions.innerHTML = "";
+
                 }
 
 
@@ -883,18 +922,37 @@ function getSearchIngredients(food) {
 
 
   // =====================================================
-  // 似ているフード検索
+  // ★ 共通原材料で比較
   // =====================================================
 
   function showSimilarFoods(
     selectedFood
   ) {
 
+    // ---------------------------------------------------
+    // 選択したフードの「検索用原材料」
+    // ---------------------------------------------------
+
     const selectedIngredients =
       getSearchIngredients(
         selectedFood
       );
 
+
+    console.log(
+      "比較対象:",
+      selectedFood.name
+    );
+
+    console.log(
+      "選択フードの検索用原材料:",
+      selectedIngredients
+    );
+
+
+    // ---------------------------------------------------
+    // 共通原材料を持つフードを探す
+    // ---------------------------------------------------
 
     const similarFoods =
       foods
@@ -923,6 +981,7 @@ function getSearchIngredients(food) {
           }
 
 
+          // ★ ここも必ず ingredients
           const foodIngredients =
             getSearchIngredients(
               food
@@ -947,8 +1006,9 @@ function getSearchIngredients(food) {
 
         .map(food => {
 
+          // ★ ここも必ず ingredients
           const foodIngredients =
-            getSearchlIngredients(
+            getSearchIngredients(
               food
             );
 
@@ -966,7 +1026,10 @@ function getSearchIngredients(food) {
             commonIngredients.length * 10;
 
 
+          // ------------------------------------------------
           // 年齢
+          // ------------------------------------------------
+
           if (
             selectedFood.age &&
             food.age &&
@@ -979,7 +1042,10 @@ function getSearchIngredients(food) {
           }
 
 
+          // ------------------------------------------------
           // 全年齢
+          // ------------------------------------------------
+
           if (
             food.age === "全年齢"
           ) {
@@ -989,7 +1055,10 @@ function getSearchIngredients(food) {
           }
 
 
+          // ------------------------------------------------
           // 犬サイズ
+          // ------------------------------------------------
+
           if (
             selectedFood.animal === "dog"
           ) {
@@ -1040,7 +1109,9 @@ function getSearchIngredients(food) {
     // ===================================================
 
     if (!results) {
+
       return;
+
     }
 
 
@@ -1060,17 +1131,25 @@ function getSearchIngredients(food) {
     );
 
 
+    // ---------------------------------------------------
+    // 共通原材料がない場合
+    // ---------------------------------------------------
+
     if (
       similarFoods.length === 0
     ) {
 
       results.innerHTML +=
-        "<p>共通する実際の原材料を持つフードがありません。</p>";
+        "<p>共通する原材料を持つフードがありません。</p>";
 
       return;
 
     }
 
+
+    // ---------------------------------------------------
+    // 比較結果
+    // ---------------------------------------------------
 
     similarFoods.forEach(
       item => {
@@ -1079,12 +1158,14 @@ function getSearchIngredients(food) {
           item.food;
 
 
+        // カードには実際の原材料を表示
         const card =
           createFoodCard(
             food
           );
 
 
+        // 比較結果には検索用原材料を表示
         const common =
           document.createElement(
             "p"
