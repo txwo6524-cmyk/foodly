@@ -3,194 +3,801 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>うちの子フード検索</title>
+
+  <style>
+    /* =====================================================
+       検索メニュー
+    ===================================================== */
+
+    .search-menu {
+      margin: 30px 0;
+    }
+
+    .search-menu-title {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .search-menu-cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .search-menu-card {
+      border: 2px solid #eadfd5;
+      border-radius: 24px;
+      background: #fff;
+      padding: 28px 22px;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.2s;
+      box-sizing: border-box;
+    }
+
+    .search-menu-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .search-menu-card.active {
+      border-color: #9b6842;
+      background: #fffaf6;
+    }
+
+    .search-menu-icon {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .search-menu-card h3 {
+      font-size: 22px;
+      margin: 5px 0 10px;
+    }
+
+    .search-menu-card p {
+      margin: 0;
+      line-height: 1.7;
+      color: #666;
+    }
+
+    .search-menu-arrow {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 25px;
+      border-radius: 30px;
+      background: #9b6842;
+      color: white;
+      font-weight: bold;
+    }
+
+
+    /* =====================================================
+       検索パネル
+    ===================================================== */
+
+    .search-panel {
+      display: none;
+      margin-top: 25px;
+      padding: 25px 20px;
+      border-radius: 24px;
+      background: #fff;
+      box-sizing: border-box;
+    }
+
+    .search-panel.active {
+      display: block;
+    }
+
+    .search-panel-title {
+      font-size: 25px;
+      margin-top: 0;
+      margin-bottom: 25px;
+    }
+
+
+    /* =====================================================
+       原材料チェック部分
+    ===================================================== */
+
+    .ingredient-category {
+      margin-bottom: 18px;
+    }
+
+    .ingredient-category label,
+    .filter-group label {
+      display: inline-block;
+      margin: 5px;
+    }
+
+
+    /* =====================================================
+       似ているフード検索
+    ===================================================== */
+
+    .similar-search-description {
+      margin-bottom: 20px;
+      line-height: 1.8;
+    }
+
+    .food-search-box {
+      margin-top: 15px;
+    }
+
+    #currentFoodSearch {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 16px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 14px;
+    }
+
+    #foodSuggestions {
+      margin-top: 8px;
+    }
+
+
+    /* =====================================================
+       スマホ
+    ===================================================== */
+
+    @media (max-width: 700px) {
+
+      .search-menu-title {
+        font-size: 25px;
+      }
+
+      .search-menu-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+      }
+
+      .search-menu-card {
+        padding: 25px 18px;
+      }
+
+      .search-menu-icon {
+        font-size: 38px;
+      }
+
+      .search-menu-card h3 {
+        font-size: 20px;
+      }
+
+      .search-panel {
+        padding: 20px 15px;
+      }
+
+    }
+  </style>
 </head>
 
+
 <body>
+
   <h1>🐾 うちの子フード検索</h1>
 
   <p>犬や猫のフードを原材料から探せるサイト</p>
 
+
+  <!-- =====================================================
+       犬・猫切り替え
+  ====================================================== -->
+
   <div class="animal-switch">
-  <button id="dogButton">🐶 犬用</button>
-  <button id="catButton">🐱 猫用</button>
-</div>
-<button id="favoritesButton">★ お気に入り</button>
-
-<div id="favoritesResults"></div>
-  
-    <div id="searchSection">
-
-
-</div>
-
-
-<h2>避けたい原材料</h2>
-
-<div class="ingredient-category">
-  <h3>🥩 肉・魚・卵</h3>
-
-  <label><input type="checkbox" value="牛肉"> 牛肉</label>
-  <label><input type="checkbox" value="鶏肉"> 鶏肉</label>
-  <label><input type="checkbox" value="豚肉"> 豚肉</label>
-  <label><input type="checkbox" value="羊肉"> 羊肉</label>
-  <label><input type="checkbox" value="鹿肉"> 鹿肉</label>
-  <label><input type="checkbox" value="魚"> 魚</label>
-  <label><input type="checkbox" value="魚介類"> 魚介類</label>
-  <label><input type="checkbox" value="卵"> 卵</label>
-</div>
-
-<div class="ingredient-category">
-  <h3>🥛 乳製品</h3>
-
-  <label><input type="checkbox" value="牛乳"> 牛乳</label>
-  <label><input type="checkbox" value="チーズ"> チーズ</label>
-</div>
-
-<div class="ingredient-category">
-  <h3>🌾 穀物</h3>
-
-  <label><input type="checkbox" value="小麦"> 小麦</label>
-  <label><input type="checkbox" value="米"> 米</label>
-  <label><input type="checkbox" value="トウモロコシ"> トウモロコシ</label>
-  <label><input type="checkbox" value="大麦"> 大麦</label>
-  <label><input type="checkbox" value="オーツ麦"> オーツ麦</label>
-</div>
-
-<div class="ingredient-category">
-  <h3>🫘 豆類</h3>
-
-  <label><input type="checkbox" value="大豆"> 大豆</label>
-  <label><input type="checkbox" value="エンドウ豆"> エンドウ豆</label>
-  <label><input type="checkbox" value="ひよこ豆"> ひよこ豆</label>
-  <label><input type="checkbox" value="レンズ豆"> レンズ豆</label>
-</div>
-
-<div class="ingredient-category">
-  <h3>🥕 野菜・いも類</h3>
-
-  <label><input type="checkbox" value="じゃがいも"> じゃがいも</label>
-  <label><input type="checkbox" value="さつまいも"> さつまいも</label>
-  <label><input type="checkbox" value="にんじん"> にんじん</label>
-  <label><input type="checkbox" value="かぼちゃ"> かぼちゃ</label>
-  <label><input type="checkbox" value="トマト"> トマト</label>
-  <label><input type="checkbox" value="ほうれん草"> ほうれん草</label>
-  <label><input type="checkbox" value="ブロッコリー"> ブロッコリー</label>
-  <label><input type="checkbox" value="キャベツ"> キャベツ</label>
-</div>
-<!-- 絞り込み -->
-<div id="filterSection">
-
-  <h3>🔎 絞り込み</h3>
-
-  <!-- 年齢 -->
-  <div class="filter-group">
-    <h4>年齢</h4>
-
-    <label>
-      <input type="checkbox" name="age" value="子犬">
-      子犬
-    </label>
-
-    <label>
-      <input type="checkbox" name="age" value="成犬">
-      成犬
-    </label>
-
-    <label>
-      <input type="checkbox" name="age" value="シニア">
-      シニア
-    </label>
-
-    <label>
-      <input type="checkbox" name="age" value="全年齢">
-      全年齢
-    </label>
+    <button id="dogButton">🐶 犬用</button>
+    <button id="catButton">🐱 猫用</button>
   </div>
 
-  <!-- 犬のサイズ -->
-  <div class="filter-group" id="dogSizeFilter">
 
-    <h4>サイズ</h4>
+  <button id="favoritesButton">
+    ★ お気に入り
+  </button>
 
-    <label>
-      <input type="checkbox" name="size" value="超小型">
-      超小型
-    </label>
 
-    <label>
-      <input type="checkbox" name="size" value="小型">
-      小型
-    </label>
+  <div id="favoritesResults"></div>
 
-    <label>
-      <input type="checkbox" name="size" value="中型">
-      中型
-    </label>
 
-    <label>
-      <input type="checkbox" name="size" value="大型">
-      大型
-    </label>
+  <!-- =====================================================
+       検索全体
+  ====================================================== -->
 
-    <label>
-      <input type="checkbox" name="size" value="中・大型">
-      中・大型
-    </label>
+  <div id="searchSection">
 
-    <label>
-      <input type="checkbox" name="size" value="全犬種">
-      全犬種
-    </label>
+
+    <!-- ===================================================
+         検索方法を選ぶ
+    ==================================================== -->
+
+    <div class="search-menu">
+
+      <h2 class="search-menu-title">
+        🔎 フードを探す
+      </h2>
+
+
+      <div class="search-menu-cards">
+
+
+        <!-- ===============================================
+             避けたい原材料
+        ================================================ -->
+
+        <div
+          id="avoidSearchMenu"
+          class="search-menu-card active"
+        >
+
+          <div class="search-menu-icon">
+            🥕
+          </div>
+
+          <h3>
+            避けたい原材料から探す
+          </h3>
+
+          <p>
+            入っていてほしくない原材料を選んで<br>
+            条件に合うフードを探します
+          </p>
+
+          <span class="search-menu-arrow">
+            この検索を使う
+          </span>
+
+        </div>
+
+
+        <!-- ===============================================
+             似ているフード
+        ================================================ -->
+
+        <div
+          id="similarSearchMenu"
+          class="search-menu-card"
+        >
+
+          <div class="search-menu-icon">
+            🔗
+          </div>
+
+          <h3>
+            似ているフードを探す
+          </h3>
+
+          <p>
+            今食べているフードを選んで<br>
+            共通する原材料のフードを探します
+          </p>
+
+          <span class="search-menu-arrow">
+            この検索を使う
+          </span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+    <!-- ===================================================
+         ① 避けたい原材料検索
+    ==================================================== -->
+
+    <div
+      id="avoidSearchPanel"
+      class="search-panel active"
+    >
+
+      <h2 class="search-panel-title">
+        🥕 避けたい原材料から探す
+      </h2>
+
+
+      <p>
+        避けたい原材料を選んでください。
+      </p>
+
+
+      <!-- 肉・魚・卵 -->
+
+      <div class="ingredient-category">
+
+        <h3>
+          🥩 肉・魚・卵
+        </h3>
+
+        <label>
+          <input type="checkbox" value="牛肉">
+          牛肉
+        </label>
+
+        <label>
+          <input type="checkbox" value="鶏肉">
+          鶏肉
+        </label>
+
+        <label>
+          <input type="checkbox" value="豚肉">
+          豚肉
+        </label>
+
+        <label>
+          <input type="checkbox" value="羊肉">
+          羊肉
+        </label>
+
+        <label>
+          <input type="checkbox" value="鹿肉">
+          鹿肉
+        </label>
+
+        <label>
+          <input type="checkbox" value="魚">
+          <label>
+  <input type="checkbox" value="ターキー">
+  ターキー（七面鳥）
+</label>
+          
+          魚
+        </label>
+
+        <label>
+          <input type="checkbox" value="魚介類">
+          魚介類
+        </label>
+
+        <label>
+          <input type="checkbox" value="卵">
+          卵
+        </label>
+
+      </div>
+
+
+      <!-- 乳製品 -->
+
+      <div class="ingredient-category">
+
+        <h3>
+          🥛 乳製品
+        </h3>
+
+        <label>
+          <input type="checkbox" value="牛乳">
+          牛乳
+        </label>
+
+        <label>
+          <input type="checkbox" value="チーズ">
+          チーズ
+        </label>
+
+      </div>
+
+
+      <!-- 穀物 -->
+
+      <div class="ingredient-category">
+
+        <h3>
+          🌾 穀物
+        </h3>
+
+        <label>
+          <input type="checkbox" value="小麦">
+          小麦
+        </label>
+
+        <label>
+          <input type="checkbox" value="米">
+          米
+        </label>
+
+        <label>
+          <input type="checkbox" value="トウモロコシ">
+          トウモロコシ
+        </label>
+
+        <label>
+          <input type="checkbox" value="大麦">
+          大麦
+        </label>
+
+        <label>
+          <input type="checkbox" value="オーツ麦">
+          オーツ麦
+        </label>
+
+      </div>
+
+
+      <!-- 豆類 -->
+
+      <div class="ingredient-category">
+
+        <h3>
+          🫘 豆類
+        </h3>
+
+        <label>
+          <input type="checkbox" value="大豆">
+          大豆
+        </label>
+
+        <label>
+          <input type="checkbox" value="エンドウ豆">
+          エンドウ豆
+        </label>
+
+        <label>
+          <input type="checkbox" value="ひよこ豆">
+          ひよこ豆
+        </label>
+
+        <label>
+          <input type="checkbox" value="レンズ豆">
+          レンズ豆
+        </label>
+
+      </div>
+
+
+      <!-- 野菜・いも類 -->
+
+      <div class="ingredient-category">
+
+        <h3>
+          🥕 野菜・いも類
+        </h3>
+
+        <label>
+          <input type="checkbox" value="じゃがいも">
+          じゃがいも
+        </label>
+
+        <label>
+          <input type="checkbox" value="さつまいも">
+          さつまいも
+        </label>
+
+        <label>
+          <input type="checkbox" value="にんじん">
+          にんじん
+        </label>
+
+        <label>
+          <input type="checkbox" value="かぼちゃ">
+          かぼちゃ
+        </label>
+
+        <label>
+          <input type="checkbox" value="トマト">
+          トマト
+        </label>
+
+        <label>
+          <input type="checkbox" value="ほうれん草">
+          ほうれん草
+        </label>
+
+        <label>
+          <input type="checkbox" value="ブロッコリー">
+          ブロッコリー
+        </label>
+
+        <label>
+          <input type="checkbox" value="キャベツ">
+          キャベツ
+        </label>
+
+      </div>
+
+
+
+      <!-- ===============================================
+           絞り込み
+      ================================================ -->
+
+      <div id="filterSection">
+
+        <h3>
+          🔎 絞り込み
+        </h3>
+
+
+        <!-- 年齢 -->
+
+        <div class="filter-group">
+
+          <h4>
+            年齢
+          </h4>
+
+          <label>
+            <input
+              type="checkbox"
+              name="age"
+              value="子犬"
+            >
+            子犬
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="age"
+              value="成犬"
+            >
+            成犬
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="age"
+              value="シニア"
+            >
+            シニア
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="age"
+              value="全年齢"
+            >
+            全年齢
+          </label>
+
+        </div>
+
+
+        <!-- 犬サイズ -->
+
+        <div
+          class="filter-group"
+          id="dogSizeFilter"
+        >
+
+          <h4>
+            サイズ
+          </h4>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="超小型"
+            >
+            超小型
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="小型"
+            >
+            小型
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="中型"
+            >
+            中型
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="大型"
+            >
+            大型
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="中・大型"
+            >
+            中・大型
+          </label>
+
+          <label>
+            <input
+              type="checkbox"
+              name="size"
+              value="全犬種"
+            >
+            全犬種
+          </label>
+
+        </div>
+
+      </div>
+
+
+      <br>
+
+
+      <button id="ingredientSearchButton">
+        🔎 この条件で検索する
+      </button>
+
+
+      <div id="searchResults"></div>
+
+    </div>
+
+
+
+    <!-- ===================================================
+         ② 似ているフード検索
+    ==================================================== -->
+
+    <div
+      id="similarSearchPanel"
+      class="search-panel"
+    >
+
+      <h2 class="search-panel-title">
+        🔗 似ているフードを探す
+      </h2>
+
+
+      <p class="similar-search-description">
+        今食べているフードを選ぶと、<br>
+        <strong>検索用に統一した原材料</strong>を使って
+        共通するフードを探します。
+      </p>
+
+
+      <!-- 犬・猫 -->
+
+      <div class="current-food-animal-switch">
+
+        <button
+          id="currentDogButton"
+          type="button"
+        >
+          🐶 犬用
+        </button>
+
+        <button
+          id="currentCatButton"
+          type="button"
+        >
+          🐱 猫用
+        </button>
+
+      </div>
+
+
+      <!-- フード検索 -->
+
+      <div class="food-search-box">
+
+        <input
+          type="text"
+          id="currentFoodSearch"
+          placeholder="今食べているフード名を入力"
+          autocomplete="off"
+        >
+
+        <div id="foodSuggestions"></div>
+
+      </div>
+
+
+      <div id="results"></div>
+
+    </div>
+
 
   </div>
 
-</div>
-    <br><br>
 
-  <button id="ingredientSearchButton">検索する</button>
 
-  <div id="searchResults"></div>
-  </div>  
-<br><br>
-<div class="data-note">
-  <h3>⚠️ データについて</h3>
-  <p>
-    原材料は検索しやすいよう一部表記を統一しています。
-    鶏油・鶏脂などは「鶏肉」、魚油などは「魚」として扱っています。
-  </p>
-  <p>
-    価格・内容量・粒の大きさは参考情報です。
-    最新情報は各メーカー公式サイト・商品パッケージをご確認ください。
-  </p>
-</div>
-<h2>今食べているフード</h2>
+  <!-- =====================================================
+       データについて
+  ====================================================== -->
 
-<div class="current-food-animal-switch">
-  <button id="currentDogButton" type="button">
-    🐶 犬用
-  </button>
+  <div class="data-note">
 
-  <button id="currentCatButton" type="button">
-    🐱 猫用
-  </button>
-</div>
+    <h3>
+      ⚠️ データについて
+    </h3>
 
-<div class="food-search-box">
-  <input
-    type="text"
-    id="currentFoodSearch"
-    placeholder="フード名を入力してください"
-    autocomplete="off"
-  >
+    <p>
+      原材料は検索しやすいよう一部表記を統一しています。
+      鶏油・鶏脂などは「鶏肉」、
+      魚油などは「魚」として扱っています。
+    </p>
 
-  <div id="foodSuggestions"></div>
-</div>
+    <p>
+      価格・内容量・粒の大きさは参考情報です。
+      最新情報は各メーカー公式サイト・商品パッケージをご確認ください。
+    </p>
 
-<div id="results"></div>
+  </div>
 
- 
-  
-  <script src="script.js"></script> 
+
+
+  <!-- =====================================================
+       検索メニュー切り替え
+  ====================================================== -->
+
+  <script>
+
+    const avoidSearchMenu =
+      document.getElementById("avoidSearchMenu");
+
+    const similarSearchMenu =
+      document.getElementById("similarSearchMenu");
+
+    const avoidSearchPanel =
+      document.getElementById("avoidSearchPanel");
+
+    const similarSearchPanel =
+      document.getElementById("similarSearchPanel");
+
+
+    function showSearchPanel(type) {
+
+      if (type === "avoid") {
+
+        avoidSearchMenu.classList.add("active");
+        similarSearchMenu.classList.remove("active");
+
+        avoidSearchPanel.classList.add("active");
+        similarSearchPanel.classList.remove("active");
+
+      }
+
+
+      if (type === "similar") {
+
+        similarSearchMenu.classList.add("active");
+        avoidSearchMenu.classList.remove("active");
+
+        similarSearchPanel.classList.add("active");
+        avoidSearchPanel.classList.remove("active");
+
+      }
+
+    }
+
+
+    avoidSearchMenu.addEventListener(
+      "click",
+      () => {
+        showSearchPanel("avoid");
+      }
+    );
+
+
+    similarSearchMenu.addEventListener(
+      "click",
+      () => {
+        showSearchPanel("similar");
+      }
+    );
+
+  </script>
+
+
+  <script src="script.js"></script>
+
 </body>
 </html>
