@@ -738,38 +738,24 @@ Promise.all([
 
 
   // =====================================================
-  // 実際の原材料を配列にする
-  // =====================================================
+// 比較用の原材料を取得
+// ingredients = 検索用に統一した原材料
+// =====================================================
 
-  function getActualIngredients(food) {
+function getSearchIngredients(food) {
 
-    if (
-      !food ||
-      !food.actualIngredients
-    ) {
-
-      return [];
-
-    }
-
-
-    return String(
-      food.actualIngredients
-    )
-
-      .split(/[、，,]/)
-
-      .map(
-        ingredient =>
-          ingredient.trim()
-      )
-
-      .filter(
-        ingredient =>
-          ingredient.length > 0
-      );
-
+  if (
+    !food ||
+    !Array.isArray(food.ingredients)
+  ) {
+    return [];
   }
+
+  return food.ingredients
+    .map(ingredient => String(ingredient).trim())
+    .filter(ingredient => ingredient.length > 0);
+
+}
 
 
   // =====================================================
