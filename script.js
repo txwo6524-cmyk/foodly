@@ -458,12 +458,19 @@ Promise.all([
 
 
         const hasAvoidedIngredient =
-          ingredients.some(
-            ingredient =>
-              avoidedIngredients.includes(
-                String(ingredient).trim()
-              )
-          );
+  ingredients.some(ingredient => {
+
+    // 「鶏肉」だけは完全一致
+    if (avoidedIngredients.includes("鶏肉")) {
+      if (ingredient === "鶏肉") {
+        return true;
+      }
+    }
+
+    // その他は今まで通り
+    return avoidedIngredients.includes(ingredient);
+
+  });
 
 
         if (hasAvoidedIngredient) {
