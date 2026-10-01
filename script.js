@@ -891,7 +891,7 @@ function getSearchIngredients(food) {
   ) {
 
     const selectedIngredients =
-      getActualIngredients(
+      getSearchIngredients(
         selectedFood
       );
 
@@ -924,7 +924,7 @@ function getSearchIngredients(food) {
 
 
           const foodIngredients =
-            getActualIngredients(
+            getSearchIngredients(
               food
             );
 
@@ -948,7 +948,7 @@ function getSearchIngredients(food) {
         .map(food => {
 
           const foodIngredients =
-            getActualIngredients(
+            getSearchlIngredients(
               food
             );
 
